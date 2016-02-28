@@ -11,6 +11,17 @@ url:                 http://lanyon.getpoole.com
 baseurl:             ""
 paginate:            5
 
+# Pandoc
+gems:
+  - jekyll-pandoc
+markdown: pandoc
+pandoc:
+  extensions:
+    - normalize
+    - smart
+    - csl: _styles/modern-language-association.csl
+    - bibliography: bibliography/references.bib
+
 # About/contact
 author:
   name:              Mark Otto
