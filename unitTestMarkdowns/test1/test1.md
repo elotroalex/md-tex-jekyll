@@ -33,6 +33,21 @@ Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de par
 >     - But he can indent
 > - blockquoted lines
 
+> - This is
+> - a test
+>     - to compel some spaces {.indent2}
+>     - though this is at the same ul level. {.indent5}
+> - and this is back {.indent3}
+> - because poets.
+> - base line
+> - base line indent 1 {.indent1}
+> - base line indent 2 {.indent2}
+> - base line indent 3 {.indent3}
+> - base line indent 4 {.indent4}
+>     - indented line
+>          - 8 spaces
+
+
 - but above
 - should not have bullets
 

@@ -67,7 +67,7 @@ cette solution la micro-numérisation.
 \stopitemize
 
 \startblockquote
-\definesymbol[bigsquare][]\setupitemize[symbol=bigsquare]
+\definesymbol[bigsquare][]\setupitemize[symbol={}]
 
 \startitemize[packed]
 \item
@@ -82,6 +82,45 @@ cette solution la micro-numérisation.
   \stopitemize
 \item
   blockquoted lines
+\stopitemize
+\stopblockquote
+
+\startblockquote
+\definesymbol[bigsquare][]\setupitemize[symbol={}]
+
+\startitemize[packed]
+\item
+  This is
+\item
+  a test
+  \startitemize[packed]
+  \item
+    \hspace[2]to compel some spaces 
+  \item
+    \hspace[5]though this is at the same ul level. 
+  \stopitemize
+\item
+  \hspace[3]and this is back 
+\item
+  because poets.
+\item
+  base line
+\item
+  \hspace[1]base line indent 1 
+\item
+  \hspace[2]base line indent 2 
+\item
+  \hspace[3]base line indent 3 
+\item
+  \hspace[4]base line indent 4
+  \startitemize[packed]
+  \item
+    indented line
+    \startitemize[packed]
+    \item
+      8 spaces
+    \stopitemize
+  \stopitemize
 \stopitemize
 \stopblockquote
 

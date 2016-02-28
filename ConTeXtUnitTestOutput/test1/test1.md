@@ -12,6 +12,7 @@ doi: 10.1215/07990537-2739812
 bibliography: references.bib
 csl: chicago.csl
 ---
+
 ## French!
 
 Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de paradigme[^8] que représente l’édition numérique des textes. Du projet Gutenberg de 1971 au projet HyperNietzche actuellement développé au sein de l’ITEM, les éditions numériques ont évolué d’une simple transcription de texte jusqu’à devenir des outils perfectionnés d’analyse, qui ont changé notre façon de comprendre et d’étudier les textes. Tout au long de ce processus, malheureusement, de nombreux corpus importants de la littérature ont été laissés pour compte. Au cours des années 1990, la généralisation de l’internet a coïncidé avec une migration en masse des textes papier vers un support numérique. Mais cet effort étant nécessairement lié à un appui institutionnel et financier massif, la plus grande partie de ces efforts de numérisation ont porté sur les canons bibliographiques de l’Amérique du Nord et de l’Europe. D’autres champs littéraires, dont l’immense majorité des corpus de la sphère francophone (Afrique, Caraïbe essentiellement), n’ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l’attention s’est déplacée de la numérisation à la création d’outils d’analyse qui pourraient être appliqués à l’énorme quantité de données collectées, il est devenu encore plus difficile d’obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d’œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d’archives. L’édition d’une pièce d’Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation. n’ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l’attention s’est déplacée de la numérisation à la création d’outils d’analyse qui pourraient être appliqués à l’énorme quantité de données collectées, il est devenu encore plus difficile d’obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d’œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d’archives. L’édition d’une pièce d’Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation.
@@ -31,6 +32,21 @@ Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de par
 >     - But brian can't write poetry
 >     - But he can indent
 > - blockquoted lines
+
+> - This is
+> - a test
+>     - to compel some spaces {.indent2}
+>     - though this is at the same ul level. {.indent5}
+> - and this is back {.indent3}
+> - because poets.
+> - base line
+> - base line indent 1 {.indent1}
+> - base line indent 2 {.indent2}
+> - base line indent 3 {.indent3}
+> - base line indent 4 {.indent4}
+>     - indented line
+>          - 8 spaces
+
 
 - but above
 - should not have bullets

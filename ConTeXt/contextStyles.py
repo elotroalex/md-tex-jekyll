@@ -38,12 +38,16 @@ def mycite(key, value, fmt, meta):
 				if val[0] and  'c' in val[0] and {   u'c': u'{.red}', u't': u'Str'} in val[0]['c']:
 					val[0]['c'].remove({   u'c': u'{.red}', u't': u'Str'})
 					val[0]['c']=[context("\color[red]{")]+val[0]['c']+[context('}')]
+				for i in range(1,10):
+					if val[0] and  'c' in val[0] and {   u'c': u'{.indent'+str(i)+'}', u't': u'Str'} in val[0]['c']:
+						val[0]['c'].remove({   u'c': u'{.indent'+str(i)+'}', u't': u'Str'})
+						val[0]['c']=[context("\hspace["+str(i)+"]")]+val[0]['c']
 		except KeyError:
 			warning("")
 
 	elif key == 'BlockQuote':
 		if "BulletList" in value[0]['t']:
-			value.insert(0,RawBlock('context',"\\definesymbol[bigsquare][]\setupitemize[symbol=bigsquare]"))
+			value.insert(0,RawBlock('context',"\\definesymbol[bigsquare][]\setupitemize[symbol={}]"))
 			
 
 
