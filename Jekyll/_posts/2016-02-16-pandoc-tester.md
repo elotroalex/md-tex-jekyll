@@ -3,8 +3,37 @@ layout: post
 title: Pandoc Tester
 ---
 
-> - rather bear those ills we had,  
-> - Than fly to others, that we knew not of. {.red}
+# Poetry inside a block
+
+> <div class='poetry'>
+> - Two others oped their iron jaws,
+> - And waved their children-stealing paws;
+> - There sat their children in gewgaws;
+> - By stinting negroes' backs and maws,
+> - They kept up heavenly union.
+> </div>
+> <div class='poetry'>
+> - All good from Jack another takes,
+> - And entertains their flirts and rakes,
+> - Who dress as sleek as glossy snakes,
+> - And cram their mouths with sweetened cakes;
+> - <span class="indent-3">And this goes down for union.</span>
+> </div>
+
+# Poetry outside a blockquote
+
+<div class='poetry'>
+- O Captain! my Captain! our fearful trip is done;
+- The ship has weather’d every rack, the prize we sought is won,
+- The port is near, the bells I hear, the people all exulting,
+- While follow eyes the steady keel, the vessel grim and daring; 
+- <span class="indent-3">But O heart! heart! heart!</li>
+- <span class="indent-4">O the bleeding drops of red,</li>
+- <span class="indent-5">Where on the deck my Captain lies,</li>
+- <span class="indent-6">Fallen cold and dead.</li>
+</div>
+
+
 
 # Header red {.red}
 

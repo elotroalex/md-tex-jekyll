@@ -1,4 +1,74 @@
+body {
+  word-wrap: break-word; /* force long words to break */
+  overflow-wrap: break-word; /* newer syntax standard that replaces word-wrap */
+}
+
 .red {color:red;}
+
+.poetry ul, ul.poetry, .poetry p {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
+
+.indent-1 {
+  font-style: normal;
+  padding-left: 1rem;
+}
+
+.indent-2 {
+  font-style: normal;
+  padding-left: 2rem;
+}
+
+.indent-3 {
+  font-style: normal;
+  padding-left: 3rem;
+}
+
+.indent-4 {
+  font-style: normal;
+  padding-left: 4rem;
+}
+
+.indent-5 {
+  font-style: normal;
+  padding-left: 5rem;
+}
+
+.indent-6 {
+  font-style: normal;
+  padding-left: 6rem;
+}
+
+.indent-7 {
+  font-style: normal;
+  padding-left: 7rem;
+}
+
+.indent-8 {
+  font-style: normal;
+  padding-left: 8rem;
+}
+
+.indent-9 {
+  font-style: normal;
+  padding-left: 9rem;
+}
+
+.indent-10 {
+  font-style: normal;
+  padding-left: 10rem;
+}
+
+.poetry .citation {
+  font-style: italic;
+  font-size: .9rem;
+  color: gray;
+}
+
 
 
 /*
