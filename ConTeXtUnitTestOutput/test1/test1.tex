@@ -1,66 +1,53 @@
-
-\setvariables[article][shortauthor={}, date={}, issue={}, DOI={}]
-
-
-
-\usebtxdataset[references.bib.bib]
-\setupbtxrendering[default]
-                   [numbering=no, alternative=cite]
-
-
+\setvariables[article][shortauthor={Fanon}, date={Febuary 2016}, issue={102}, DOI={10.1215/07990537-2739812}]
 
 \environment env_journal
-\startcomponent 
+
+\startcomponent poetry
 
 
-\startchapter[title={}, marking={}, reference={}]
+\startchapter[title={A long title for the first unittest: exploring some features and
+questions of the nature of unit tests, poetry, and red lines.}, marking={Poetry and Redlines}, reference={poetry}]
 
 
 \startlines
 {\bf
+Franz Fanon
 }
 \stoplines
 
-\startblockquote
-\startitemize[packed]
-\item
-  rather bear those ills we had,\crlf
-\item
-  Than fly to others, that we knew not of. \{.red\}
-\stopitemize
-\stopblockquote
+\subsection[french]{French!}
 
-\section[header-red]{Header red}
-
-We should talk about this template. Some things to discuss:
-
-\startitemize[packed]
-\item
-  separate bib file?
-\item
-  yaml metadata
-\item
-  tests for correct submission
-\stopitemize
-
-Il est désormais difficile de nier le changement fondamental de
-paradigme que représente l'édition numérique des textes. Du projet
-Gutenberg de 1971 au projet HyperNietzche actuellement développé au sein
-de l'ITEM, les éditions numériques ont évolué d'une simple transcription
-de texte jusqu'à devenir des outils perfectionnés d'analyse, qui ont
-changé notre façon de comprendre et d'étudier les textes. Tout au long
-de ce processus, malheureusement, de nombreux corpus importants de la
-littérature ont été laissés pour compte. Au cours des années 1990, la
-généralisation de l'internet a coïncidé avec une migration en masse des
-textes papier vers un support numérique. Mais cet effort étant
-nécessairement lié à un appui institutionnel et financier massif, la
-plus grande partie de ces efforts de numérisation ont porté sur les
-canons bibliographiques de l'Amérique du Nord et de l'Europe. D'autres
-champs littéraires, dont l'immense majorité des corpus de la sphère
-francophone (Afrique, Caraïbe essentiellement), n'ont pas été pris en
-compte, pour des raisons diverses (institutionnelles, technologiques,
-juridiques etc.) En ce début de XXIème siècle, au moment où l'attention
-s'est déplacée de la numérisation à la création d'outils d'analyse qui
+Il est désormais difficile de nier\footnote{A rare first page footnote}
+le changement\footnote{oooh} fondamental\footnote{just trying to} de
+paradigme\footnote{argh} que représente l'édition numérique des textes.
+Du projet Gutenberg de 1971 au projet HyperNietzche actuellement
+développé au sein de l'ITEM, les éditions numériques ont évolué d'une
+simple transcription de texte jusqu'à devenir des outils perfectionnés
+d'analyse, qui ont changé notre façon de comprendre et d'étudier les
+textes. Tout au long de ce processus, malheureusement, de nombreux
+corpus importants de la littérature ont été laissés pour compte. Au
+cours des années 1990, la généralisation de l'internet a coïncidé avec
+une migration en masse des textes papier vers un support numérique. Mais
+cet effort étant nécessairement lié à un appui institutionnel et
+financier massif, la plus grande partie de ces efforts de numérisation
+ont porté sur les canons bibliographiques de l'Amérique du Nord et de
+l'Europe. D'autres champs littéraires, dont l'immense majorité des
+corpus de la sphère francophone (Afrique, Caraïbe essentiellement),
+n'ont pas été pris en compte, pour des raisons diverses
+(institutionnelles, technologiques, juridiques etc.) En ce début de
+XXIème siècle, au moment où l'attention s'est déplacée de la
+numérisation à la création d'outils d'analyse qui pourraient être
+appliqués à l'énorme quantité de données collectées, il est devenu
+encore plus difficile d'obtenir des fonds pour les projets de
+numérisation à grande échelle de ces littératures négligées. Une
+solution provisoire, donc, consiste à créer des éditions numériques
+d'œuvres-clé de ces grands corpus, en laissant de côté pour le moment la
+numérisation massive des fonds d'archives. L'édition d'une pièce d'Aimé
+Césaire se propose donc un but démonstratif et exemplaire. Appelons
+cette solution la micro-numérisation. n'ont pas été pris en compte, pour
+des raisons diverses (institutionnelles, technologiques, juridiques
+etc.) En ce début de XXIème siècle, au moment où l'attention s'est
+déplacée de la numérisation à la création d'outils d'analyse qui
 pourraient être appliqués à l'énorme quantité de données collectées, il
 est devenu encore plus difficile d'obtenir des fonds pour les projets de
 numérisation à grande échelle de ces littératures négligées. Une
@@ -69,6 +56,49 @@ d'œuvres-clé de ces grands corpus, en laissant de côté pour le moment la
 numérisation massive des fonds d'archives. L'édition d'une pièce d'Aimé
 Césaire se propose donc un but démonstratif et exemplaire. Appelons
 cette solution la micro-numérisation.
+
+\section[some-poetry]{Some Poetry}
+
+\startitemize[packed]
+\item
+  normal list
+\item
+  this should have bullets
+\stopitemize
+
+\startblockquote
+\definesymbol[bigsquare][]\setupitemize[symbol=bigsquare]
+
+\startitemize[packed]
+\item
+  rather bear those ills we had,\crlf
+\item
+  \color[red]{Than fly to others, that we knew not of. }
+  \startitemize[packed]
+  \item
+    But brian can't write poetry
+  \item
+    But he can indent
+  \stopitemize
+\item
+  blockquoted lines
+\stopitemize
+\stopblockquote
+
+\startitemize[packed]
+\item
+  but above
+\item
+  should not have bullets
+\stopitemize
+
+\section[a-red-header-thingo]{\color[red]{A red header thingo}}
+
+\subsection[a-sub-red-header-thingo]{\color[red]{A sub red header
+thingo}}
+
+\subsubsection[a-level-threeeeeee-header-thingo]{\color[red]{A level
+threeeeeee header thingo}}
 
 Parmi les nombreux défis qui sont à relever par les équipes d'édition
 numérique, dans le cas d'objets éditoriaux complexes, l'un des plus
@@ -81,21 +111,23 @@ cette archive sera déjà une réussite considérable. Mais nous désirons ne
 pas nous arrêter là. Si la tâche de l'édition génétique, comme Walter
 Benjamin le disait de l'histoire matérialiste, consiste à « prendre
 possession de la mémoire, dans le cillement d'un éclair au moment du
-danger »{[}1{]} -- en l'occurrence une suite d'actes poétiques réalisés
-par Aimé Césaire et ses collaborateurs{[}2{]}-- alors il nous faut une
-édition qui puisse : 1) isoler ce que Jerome McGann{[}3{]} appelle le
-code linguistique (les mots) et le code bibliographique (l'arrangement,
-la typographie, le support matériel, etc. de façon à ne pas déstabiliser
-leur équilibre délicat{[}4{]} ; 2) représenter de façon dynamique la
-trajectoire et l'interrelation entre les éléments des différents états
-du texte, afin de nous permettre de recréer le long processus génétique
-de l'archive. L'absence de coordination entre ces deux fonctionnalités a
-imposé jusqu'à aujourd'hui une séparation entre les outils d'analyse et
-la représentation des textes en ligne. Pour nous, l'avenir de l'édition
-génétique suppose la capacité de joindre l'analyse à la représentation.
-Les ressources technologiques n'ont pas encore permis de concrétiser
-toutes nos intentions, mais notre but est de faire reculer les limites
-actuelles.
+danger »\footnote{This is a footnote?} -- en l'occurrence une suite
+d'actes poétiques réalisés par Aimé Césaire et ses
+collaborateurs\footnote{another footnote}-- alors il nous faut une
+édition qui puisse : 1) isoler ce que Jerome McGann\footnote{Shockingly,
+  a footnote} appelle le code linguistique (les mots) et le code
+bibliographique (l'arrangement, la typographie, le support matériel,
+etc. de façon à ne pas déstabiliser leur équilibre délicat\footnote{The
+  footnotes come marching, one by one\ldots{}} ; 2) représenter de façon
+dynamique la trajectoire et l'interrelation entre les éléments des
+différents états du texte, afin de nous permettre de recréer le long
+processus génétique de l'archive. L'absence de coordination entre ces
+deux fonctionnalités a imposé jusqu'à aujourd'hui une séparation entre
+les outils d'analyse et la représentation des textes en ligne. Pour
+nous, l'avenir de l'édition génétique suppose la capacité de joindre
+l'analyse à la représentation. Les ressources technologiques n'ont pas
+encore permis de concrétiser toutes nos intentions, mais notre but est
+de faire reculer les limites actuelles.
 
 \startblockquote
 At the limit of an always increasing elimination of references and
@@ -103,34 +135,69 @@ finalities, an ever-increasing loss of resemblances and designations, we
 find the digital and programmatic sign, whose \quotation{value} is
 purely {\em tactical}, at the intersection of other signals
 (\quotation{bits} of information/tests) whose structure is that of a
-micromolecular code of command and control (Baudrillard and Poster 1988,
-139--40).
+micromolecular code of command and control.\footnote{Jean Baudrillard
+  and Mark Poster, {\em Selected Writings} (Stanford, Calif.: Stanford
+  University Press, 1988), 139--40.}
 \stopblockquote
 
 Roman Jakobson called such construction and deconstruction of meaning
 the \quotation{profuse exchange of ritualized formulas} or the phatic
-function of language (Malinowski et al. 1923, 146; Jakobson 1960, 355).
-In the phatic function lies the essence of programming. Code shapes and
-commands. At the same time, it conjures fantastical metaphors to occlude
-the structure of shaping and commanding. Simulation obscures the
-incongruence between visible representation and the underlying material
-affordances of the medium. What you see is not always what you get. We
-are instead confronted with a composite image, which under examination
-reveals a complex process of transfiguration between the visible sign
-and the sign at the site of the inscription. When reading online, for
-example, we observe what looks like a book, where we should also
-perceive an attempt to sensor and surveil. The simulation is without a
-referent. It bares no resemblance to the material substratum of
-electronic reading. We believe we are handling a book. Our ideas about
-reading and interpretation subsequently rely on that initial physical
-point of contact with paper. But when reading electronically, we are
-handling something other than print material. The resemblance to paper
-guides our intuitions about the possibilities of the medium: the ability
-to scroll, bookmark, or turn pages. We have far fewer intuitions about
-the affordances of inscription at the micromolecular level. As we
-\quotation{turn the page} an electric charge crosses the impenetrable
-oxide barrier to reach the floating gate through quantum tunnelling
-(Pavan et al. 1997; Aaron and Leburton 2002; Bez et al. 2003).
+function of language.\footnote{Bronislaw Malinowski et al., “The Problem
+  of Meaning in Primitive Languages,” in {\em The Meaning of Meaning; a
+  Study of the Influence of Language Upon Thought and of the Science of
+  Symbolism,} ed. C. K Ogden (London; New York: K. Paul, Trench, Trubner
+  & Co.; Harcourt, Brace & Co., 1923), 146; Roman Jakobson, “Closing
+  Statement: Linguistics and Poetics,” in {\em Style in Language}, ed.
+  Thomas A Sebeok ({[}Cambridge: Technology Press of Massachusetts
+  Institute of Technology, 1960), 355.} In the phatic function lies the
+essence of programming. Code shapes and commands. At the same time, it
+conjures fantastical metaphors to occlude the structure of shaping and
+commanding. Simulation obscures the incongruence between visible
+representation and the underlying material affordances of the medium.
+What you see is not always what you get. We are instead confronted with
+a composite image, which under examination reveals a complex process of
+transfiguration between the visible sign and the sign at the site of the
+inscription. When reading online, for example, we observe what looks
+like a book, where we should also perceive an attempt to sensor and
+surveil. The simulation is without a referent. It bares no resemblance
+to the material substratum of electronic reading. We believe we are
+handling a book. Our ideas about reading and interpretation subsequently
+rely on that initial physical point of contact with paper. But when
+reading electronically, we are handling something other than print
+material. The resemblance to paper guides our intuitions about the
+possibilities of the medium: the ability to scroll, bookmark, or turn
+pages. We have far fewer intuitions about the affordances of inscription
+at the micromolecular level. As we \quotation{turn the page} an electric
+charge crosses the impenetrable oxide barrier to reach the floating gate
+through quantum tunnelling.\footnote{P. Pavan et al., “Flash Memory
+  Cells-an Overview,” {\em Proceedings of the IEEE} 85, no. 8 (August
+  1997): 1248--71,
+  doi:\useURL[url1][https://doi.org/10.1109/5.622505][][10.1109/5.622505]\from[url1];
+  V.-Y. Aaron and J. Leburton, “Flash Memory: Towards
+  Single-Electronics,” {\em IEEE Potentials} 21, no. 4 (October 2002):
+  35--41,
+  doi:\useURL[url2][https://doi.org/10.1109/MP.2002.1044216][][10.1109/MP.2002.1044216]\from[url2];
+  R. Bez et al., “Introduction to Flash Memory,” {\em Proceedings of the
+  IEEE} 91, no. 4 (April 2003): 489--502,
+  doi:\useURL[url3][https://doi.org/10.1109/JPROC.2003.811702][][10.1109/JPROC.2003.811702]\from[url3].}
+
+\section[a-black-header-thingo]{A black header thingo}
+
+\subsection[a-sub-balck-header-thingo]{A sub balck header thingo}
+
+\subsubsection[a-level-threeeeeee-header-thingo-1]{A level threeeeeee
+header thingo}
+
+We should talk about this template. Some things to discuss:
+
+\startitemize[packed]
+\item
+  separate bib file?
+\item
+  yaml metadata
+\item
+  tests for correct submission
+\stopitemize
 
 Unlike figurative language, machine control languages function in the
 imperative. They do not stand for action---they are action. Code
@@ -189,25 +256,29 @@ space. A file in the Portable Document Format (\type{.pdf}) containing
 nothing but \quotation{hello world} takes up 24,335 bytes on my system.
 Encoding accounts for the disparity between plain text and fancy text,
 the latter defined as \quotation{text representation consisting of plain
-text plus added information} (Unicode Consortium 1990).
+text plus added information.}\footnote{Unicode Consortium, {\em The
+  Unicode Standard: Worldwide Character Encoding, Version 1}
+  (Addison-Wesley, 1990).}
 
 \placefigure{Forms and formats.}{\externalfigure[images/forms.png]}
 
 In cognitive metaphor theory, the kind of resemblances that we have been
 discussing so far are called {\em structural metaphors}.
 \quotation{Structural metaphors allow us to do much more than just
-orient concepts,} Lakoff and Johnson wrote (Lakoff and Johnson 1980a,
-61). Grounded in \quotation{systematic correlations within our
-experience,} structural metaphors transfer organizing principles from
-one domain to another. Thus to say something like \quotation{time is
-money} is to suggest that something in the arrangement of the financial
-system correlates systematically to something in the arrangement of the
-temporal system (Lakoff and Johnson 1980a, 65--68). It is a structural
-and not just a semantic similarity. If metaphors work by transferring
-qualities, structure is the quality being transferred in all of the
-above cases. Structural metaphors organize one thing in the shape of
-another. They are for this reason key to understanding the transference
-that takes place in the interface between human and machine.
+orient concepts,} Lakoff and Johnson wrote.\footnote{George Lakoff and
+  Mark Johnson, {\em Metaphors We Live by} (Chicago: University of
+  Chicago Press, 1980), 61.} Grounded in \quotation{systematic
+correlations within our experience,} structural metaphors transfer
+organizing principles from one domain to another. Thus to say something
+like \quotation{time is money} is to suggest that something in the
+arrangement of the financial system correlates systematically to
+something in the arrangement of the temporal system.\footnote{Ibid.,
+  65--68.} It is a structural and not just a semantic similarity. If
+metaphors work by transferring qualities, structure is the quality being
+transferred in all of the above cases. Structural metaphors organize one
+thing in the shape of another. They are for this reason key to
+understanding the transference that takes place in the interface between
+human and machine.
 
 \startblockquote
 a shared books with database metaphor, a reference books metaphor, and a
@@ -215,7 +286,9 @@ card catalog metaphor in one system that allows large object oriented
 data bases to be organized and accessed in an exclusive environment and
 in addition allows access to screen icons, creates a visual hierarchy of
 related and shared objects, and allows mutually exclusive access to the
-metaphors within the library (Pajak 1992, 1).
+metaphors within the library.\footnote{Henry G. Pajak, “Electronic
+  Library,” February 1992, 1,
+  \useURL[url4][http://www.google.com/patents/EP0472070A2]\from[url4].}
 \stopblockquote
 
 In the so-called classical view, metaphors are simply a type of
@@ -224,32 +297,46 @@ misty mountain tops} is to use the verb \quotation{stand} in a novel
 linguistic context. Days have no literal legs to stand on. John Searle,
 George Lakoff, and Mark Turner, among others, have argued that metaphors
 are more broadly a cognitive phenomenon, mapping distinct ontological
-categories across \quotation{conceptual domains} (Lakoff and Johnson
-1980a; Turner 1987; Lakoff 1998, Searle (1998)). In the modified view,
-even such basic semantic concepts as \quotation{state, quantity, action,
-cause, purpose, means, modality} are metaphorical in nature (Lakoff and
-Johnson 1980b; Lakoff 1998, 212). Beyond figurative lyrical language,
-Lakoff and others have argued that metaphors broadly structure everyday
-experience. Thus the analysis of common phrases like \quotation{things
-are looking up} and \quotation{I can't get that tune out of my mind}
-reveals underlying figuration like \quotation{good things are up} and
-\quotation{the mind is a container.} The idea that \quotation{good
-things are up} generates a multitude of metaphors like
+categories across \quotation{conceptual domains.}\footnote{Lakoff and
+  Johnson, {\em Metaphors We Live by}; Mark Turner, {\em Death Is the
+  Mother of Beauty: Mind, Metaphor, Criticism} (Chicago: University of
+  Chicago Press, 1987); George Lakoff, “The Contemporary Theory of
+  Metaphor,” in {\em Metaphor and Thought}, ed. Andrew Ortony
+  (Cambridge: Cambridge University Press, 1998), 201--52, John R.
+  Searle, “Metaphor,” in {\em Metaphor and Thought}, ed. Andrew Ortony
+  (Cambridge: Cambridge University Press, 1998), 83--112.} In the
+modified view, even such basic semantic concepts as \quotation{state,
+quantity, action, cause, purpose, means, modality} are metaphorical in
+nature.\footnote{George Lakoff and Mark Johnson, “The Metaphorical
+  Structure of the Human Conceptual System,” {\em Cognitive Science} 4,
+  no. 2 (April 1980): 195--208,
+  doi:\useURL[url5][https://doi.org/10.1016/S0364-0213(80)80017-6][][10.1016/S0364-0213(80)80017-6]\from[url5];
+  Lakoff, “The Contemporary Theory of Metaphor,” 212.} Beyond figurative
+lyrical language, Lakoff and others have argued that metaphors broadly
+structure everyday experience. Thus the analysis of common phrases like
+\quotation{things are looking up} and \quotation{I can't get that tune
+out of my mind} reveals underlying figuration like \quotation{good
+things are up} and \quotation{the mind is a container.} The idea that
+\quotation{good things are up} generates a multitude of metaphors like
 \quotation{profits are going up} and \quotation{moving on up,} for
-example (Lakoff and Johnson 1980b, 195--98)
+example\footnote{Lakoff and Johnson, “The Metaphorical Structure of the
+  Human Conceptual System,” 195--98.}
 
 \placefigure{\quotation{An exemplary interface for viewing a three
-dimensional book} (Card et al. 2006,
-3).}{\externalfigure[images/book-metaphor.png]}
+dimensional book.}\footnote{Stuart Kent Card et al., “Methods, Systems,
+  and Computer Program Products for the Display and Operation of Virtual
+  Three-Dimensional Books,” March 2006, 3,
+  \useURL[url6][http://www.google.com/patents/US7015910]\from[url6].}}{\externalfigure[images/book-metaphor.png]}
 
 In the cognitive view, the metaphor performs a number of
-\quotation{conventional mappings from one domain to another} (Lakoff
-1998, 239). Lakoff mentions for example the common trope of \quotation{a
-state is a person,} implicit in the ideas of \quotation{friendly} and
-\quotation{hostile} states (Lakoff 1998, 243). This metaphor implies
-that ideas about agency, emotion, and mental life usually attached to
-people can be extended to state actors. Similarly, to say that someone
-is \quotation{boiling mad,} instantiates the common trope of
+\quotation{conventional mappings from one domain to another.}\footnote{Lakoff,
+  “The Contemporary Theory of Metaphor,” 239.} Lakoff mentions for
+example the common trope of \quotation{a state is a person,} implicit in
+the ideas of \quotation{friendly} and \quotation{hostile}
+states.\footnote{Ibid., 243.} This metaphor implies that ideas about
+agency, emotion, and mental life usually attached to people can be
+extended to state actors. Similarly, to say that someone is
+\quotation{boiling mad,} instantiates the common trope of
 \quotation{anger is a hot liquid in a container.} In this case, common
 known properties attached to the domain of physics are mapped onto the
 domain of emotion. Lakoff further explains that such domain mappings
@@ -259,9 +346,18 @@ grounded in the body and in everyday experience and knowledge.} Finally
 domain mappings obey what Lakoff calls the Invariance Principle, by
 which \quotation{the image schema structure of the source domain is
 projected onto the target domain in a way that is consistent with
-inherent target domain structure.}\footnote{(Lakoff 1998) See also
-  Turner and Fauconnier (1995); Ruiz de Mendoza Ibáñez (1998); Lakoff
-  (2009).}
+inherent target domain structure.}\footnote{ibid. See also Mark Turner
+  and Gilles Fauconnier, “Conceptual Integration and Formal Expression,”
+  {\em Metaphor and Symbolic Activity} 10, no. 3 (September 1995):
+  183--204,
+  doi:\useURL[url7][https://doi.org/10.1207/s15327868ms1003_3][][10.1207/s15327868ms1003_3]\from[url7];
+  Francisco José Ruiz de Mendoza Ibáñez, “On the Nature of Blending as a
+  Cognitive Phenomenon,” {\em Journal of Pragmatics} 30, no. 3
+  (September 1998): 259--74,
+  doi:\useURL[url8][https://doi.org/10.1016/S0378-2166(98)00006-X][][10.1016/S0378-2166(98)00006-X]\from[url8];
+  George Lakoff, “The Invariance Hypothesis: Is Abstract Reason Based on
+  Image-Schemas?” {\em Cognitive Linguistics} 1, no. 1 (2009): 39--74,
+  doi:\useURL[url9][https://doi.org/10.1515/cogl.1990.1.1.39][][10.1515/cogl.1990.1.1.39]\from[url9].}
 
 \subsubsection[another-section]{Another Section}
 
@@ -348,12 +444,15 @@ machinery. A functioning metaphor, if you would recall from Lakoff, is
 one which ferries the schematic composition of one domain into another.
 Thus to say \quotation{life is a stage} is to transpose something about
 theater onto life. In literary terms, the theater is \quotation{tenor}
-where \quotation{life} is \quotation{vehicle} of the composite figure
-(Richards 1936). Simulations work differently. Where the tenor of the
-literary metaphor crosses several semantic and cognitive domains, the
-computational metaphor substitutes the \quotation{signs of the real for
-the real} (Baudrillard 1994, 2). It is a subtle difference that
-engenders not-so-subtle effects. For example, it is one thing to say
+where \quotation{life} is \quotation{vehicle} of the composite
+figure.\footnote{I. A Richards, {\em The Philosophy of Rhetoric} (New
+  York; London: Oxford University Press, 1936).} Simulations work
+differently. Where the tenor of the literary metaphor crosses several
+semantic and cognitive domains, the computational metaphor substitutes
+the \quotation{signs of the real for the real.}\footnote{Jean
+  Baudrillard, {\em Simulacra and Simulation} (Ann Arbor: University of
+  Michigan Press, 1994), 2.} It is a subtle difference that engenders
+not-so-subtle effects. For example, it is one thing to say
 \quotation{you are the apple of my eye} and quite another to actually
 confuse apples for eye pupils. Baudrillard gives us the example of a map
 that no longer corresponds to any territory. He calls such a condition
@@ -390,21 +489,23 @@ metaphor---transposing properties of paper to glass.
 
 The interface metaphor similarly exchanges one referent for another.
 Simulation should, by definition, \quotation{assume a form resembling
-that of something else} (“Simulation, N.2” 2015). Metaphor machines
-assume the form of one thing, while structuring another. To drag and
-drop a document into a trashcan on the screen, for example, should in
-theory correspond to an analogous set of data manipulations on the disk.
-Yet, \quotation{discarding a file} in this manner does not necessarily
-include deletion of data from the storage medium, as expected. The
-representation of the document may disappear visually where the
-inscription endures. Such \quotation{loss of resemblances} could be
-insignificant. Does one care whether a file was actually erased or not
-when performing deletion? Perhaps not in many cases. But in some cases,
-when it really matters---under the threat of censorship or prosecution,
-for example---the incongruence exposes the frailty of our alienation
-from the material contexts of digital knowledge production. We want the
-thing to stay deeply deleted. Our grasp on the medium weakens the more
-convincing the simulacrum.
+that of something else.}\footnote{“Simulation, N.2,” {\em OED Online}
+  (Oxford University Press, December 2015),
+  \useURL[url10][http://www.oed.com/view/Entry/100790]\from[url10].}
+Metaphor machines assume the form of one thing, while structuring
+another. To drag and drop a document into a trashcan on the screen, for
+example, should in theory correspond to an analogous set of data
+manipulations on the disk. Yet, \quotation{discarding a file} in this
+manner does not necessarily include deletion of data from the storage
+medium, as expected. The representation of the document may disappear
+visually where the inscription endures. Such \quotation{loss of
+resemblances} could be insignificant. Does one care whether a file was
+actually erased or not when performing deletion? Perhaps not in many
+cases. But in some cases, when it really matters---under the threat of
+censorship or prosecution, for example---the incongruence exposes the
+frailty of our alienation from the material contexts of digital
+knowledge production. We want the thing to stay deeply deleted. Our
+grasp on the medium weakens the more convincing the simulacrum.
 
 Readers bear the burden of conceptual transference. In pretending to
 turn virtual pages, we lose sight of the mechanisms producing the
@@ -423,18 +524,25 @@ between media.
 Why would readers engage in such a charade? Why not simply make use of
 novel interfaces afforded by new technology? The literature from the
 field of human--computer interaction suggests a formalist answer:
-habituation (Carroll and Thomas 1982; Carroll, Mack, and Kellogg 1987;
-Spolsky 2001). The initial effort it takes to learn to read in a new
-environment may discourage potential readers from adopting a new
-technology. Smart designers therefore rely on acculturated practice, the
-turning of pages in our case, to minimize the \quotation{friction} of
-adoption. Although an \quotation{electronic book reader} contains no
-pages as such, it extends the metaphor of pages to electronic reading.
-The perceived facility of use comes at a cost of critical engagement.
-The structures of governance, like those embedded in a Portable Document
-Format, remain for the most part inaccessible to analysis. A digital
-poem, a novel, a physician's script, or a legal contract resembles their
-paper counterparts to enable familiar actions. But while imitating paper
+habituation.\footnote{J.M. Carroll and John C. Thomas, “Metaphor and the
+  Cognitive Representation of Computing Systems,” {\em IEEE Transactions
+  on Systems, Man and Cybernetics} 12, no. 2 (March 1982): 107--16,
+  doi:\useURL[url11][https://doi.org/10.1109/TSMC.1982.4308795][][10.1109/TSMC.1982.4308795]\from[url11];
+  J. M Carroll, R. L Mack, and W. A Kellogg, {\em Interface Metaphors
+  and User Interface Design} (San Jose {[}etc.{]}: IBM Thomas J. Watson
+  Research Division, 1987); Joel Spolsky, {\em User Interface Design for
+  Programmers} (Berkeley, CA; New York, NY: Apress, 2001).} The initial
+effort it takes to learn to read in a new environment may discourage
+potential readers from adopting a new technology. Smart designers
+therefore rely on acculturated practice, the turning of pages in our
+case, to minimize the \quotation{friction} of adoption. Although an
+\quotation{electronic book reader} contains no pages as such, it extends
+the metaphor of pages to electronic reading. The perceived facility of
+use comes at a cost of critical engagement. The structures of
+governance, like those embedded in a Portable Document Format, remain
+for the most part inaccessible to analysis. A digital poem, a novel, a
+physician's script, or a legal contract resembles their paper
+counterparts to enable familiar actions. But while imitating paper
 pages, the reading {\em appliance} also monitors, adjusts, warns, and
 controls.
 
@@ -446,12 +554,31 @@ importance, like digital rights management chips and censorship filters.
 Electronic books are governed and internalize governing structures in
 ways that are often purposefully hidden from the reader. For example,
 the US Digital Millennium Copyright Act prohibits the physical
-circumvention of copyright protections (Ku 2004; Ginsburg 2005;
-Perzanowski 2008; Fry 2009; Von Lohmann 2010). This means that if an
-electronic book is encrypted in some way to prevent copyright
-infringement, the reader may also be prevented from examining modes of
-accessibility, preservation, or freedom of speech embedded into the
-device.
+circumvention of copyright protections.\footnote{Vicky Ku, “Critique of
+  the Digital Millenium Copyright Act's Exception on Encryption
+  Research: Is the Exemption Too Narrow,” {\em Yale Journal of Law and
+  Technology} 7 (2004): 465,
+  \useURL[url12][http://heinonline.org/HOL/Page?handle=hein.journals/yjolt7&id=467&div=&collection=]\from[url12];
+  Jane C. Ginsburg, {\em Legal Protection of Technological Measures
+  Protecting Works of Authorship: International Obligations and the US
+  Experience}, SSRN Scholarly Paper (Rochester, NY: Social Science
+  Research Network, August 2005),
+  \useURL[url13][http://papers.ssrn.com/abstract=785945]\from[url13];
+  Aaron Perzanowski, {\em Rethinking Anticircumvention's
+  Interoperability Policy}, SSRN Scholarly Paper (Rochester, NY: Social
+  Science Research Network, September 2008),
+  \useURL[url14][http://papers.ssrn.com/abstract=1224742]\from[url14];
+  David Fry, “Circumventing Access Controls Under the Digital Millennium
+  Copyright Act: Analyzing the Securom Debate,” {\em Duke Law and
+  Technology Review} 2009 (2009): 1,
+  \useURL[url15][http://heinonline.org/HOL/Page?handle=hein.journals/dltr2009&id=65&div=&collection=]\from[url15];
+  Fred Von Lohmann, {\em Unintended Consequences: Twelve Years Under the
+  DMCA} (Electronic Frontier Foundation, 2010),
+  \useURL[url16][http://eric.ed.gov/?id=ED509862]\from[url16].} This
+means that if an electronic book is encrypted in some way to prevent
+copyright infringement, the reader may also be prevented from examining
+modes of accessibility, preservation, or freedom of speech embedded into
+the device.
 
 The material affordances of text at that bottom-most, meaning-bearing
 medium influence all higher-level functions of interpretation.\footnote{For
@@ -461,29 +588,31 @@ medium influence all higher-level functions of interpretation.\footnote{For
   channel. At first glance, it concerns only this relation, but upon
   closer examination, the first alteration irradiates in every
   direction, affecting in decisive manner all the factors and functions}
-  (Ricœur 1976, 25).} Still, most available theories of interpretation
-build on properties and assumptions attached to print media. For
-example, in Hans-Georg Gadamer's seminal conception of art, the free
-play of the artistic mind transforms into material structure
-({\em Gebilde}) that is both \quotation{repeatable} and
-\quotation{permanent} (Gadamer 1975, 110). Similarly, in his
-{\em Interpretation Theory}, Paul Ricoeur writes about the
-\quotation{range of social and political changes} related to the
+  Paul Ricœur, {\em Interpretation Theory: Discourse and the Surplus of
+  Meaning} (Fort Worth: Texas Christian University Press, 1976), 25.}
+Still, most available theories of interpretation build on properties and
+assumptions attached to print media. For example, in Hans-Georg
+Gadamer's seminal conception of art, the free play of the artistic mind
+transforms into material structure ({\em Gebilde}) that is both
+\quotation{repeatable} and \quotation{permanent.}\footnote{Hans-Georg
+  Gadamer, {\em Truth and Method} (New York: Seabury Press, 1975), 110.}
+Similarly, in his {\em Interpretation Theory}, Paul Ricoeur writes about
+the \quotation{range of social and political changes} related to the
 invention of writing. For Ricoeur, human discourse is \quotation{fixed}
-and thereby \quotation{preserved from destruction} in writing (Ricœur
-1976, 26--28). The electronic literary device offers no such permanence.
-What is meant by \quotation{fixed,} \quotation{permanent,} and
-\quotation{repeatable} changes with the medium. Such properties come to
-us under the guise of surface representation, which obscures the flows
-of code and codex. Nothing is guaranteed in the passage of electronic
-text from one pair of hands into another. Digital formatting expands its
-purview far beyond typographical convention. The erasure of words, word
-substitution, automatic summarization, wholesale generation of discourse
-by algorithmic means---the command and control layer contains all such
-possibilities. What does it mean to read and to interpret a dynamic
-text, which changes depending on its context? How can literary
-analysis---close reading, philology, hermeneutics---persist without the
-fixity of print?
+and thereby \quotation{preserved from destruction} in writing.\footnote{Ricœur,
+  {\em Interpretation Theory}, 26--28.} The electronic literary device
+offers no such permanence. What is meant by \quotation{fixed,}
+\quotation{permanent,} and \quotation{repeatable} changes with the
+medium. Such properties come to us under the guise of surface
+representation, which obscures the flows of code and codex. Nothing is
+guaranteed in the passage of electronic text from one pair of hands into
+another. Digital formatting expands its purview far beyond typographical
+convention. The erasure of words, word substitution, automatic
+summarization, wholesale generation of discourse by algorithmic
+means---the command and control layer contains all such possibilities.
+What does it mean to read and to interpret a dynamic text, which changes
+depending on its context? How can literary analysis---close reading,
+philology, hermeneutics---persist without the fixity of print?
 
 Consider the commonplace task of \quotation{turning pages} in the act of
 writing or reading digital texts. In cognitive linguistic terms, the
@@ -512,8 +641,8 @@ The simulation is perhaps necessary, because the reading and writing of
 digital data can involve processes far outside of everyday experience.
 For example, in reading data from solid state (FLASH) memory a circuit
 imparts electrical charge through quantum tunneling onto a connected
-series of floating gate transistors (Pavan et al. 1997; Bez et al.
-2003).
+series of floating gate transistors.\footnote{Pavan et al., “Flash
+  Memory Cells-an Overview”; Bez et al., “Introduction to Flash Memory.”}
 
 \placefigure{Formal structures at the site of the inscription.
 \quotation{Perspective view of a portion of a charge translating device
@@ -521,8 +650,9 @@ illustrating a preferred electrical contact arrangement. A quantum of
 charge carriers, representing an information bit {[}\ldots{}{]} can be
 translated along the semiconductor {[}\ldots{}{]} sweeping the minority
 carriers with it. The quantum can be detected by a simple capacitive
-couple, e.g., a floating gate FET} (Boyle and Smith
-1974).}{\externalfigure[images/floating-gate.png]}
+couple, e.g., a floating gate FET.}\footnote{W. Boyle and G. Smith,
+  “Information Storage Devices,” December 1974,
+  \useURL[url17][http://www.google.com/patents/US3858232]\from[url17].}}{\externalfigure[images/floating-gate.png]}
 
 Whatever the complexities of solid state storage architecture, the
 difference in arrangement of information between pages and floating
@@ -542,183 +672,51 @@ metaphor simulates the familiar but absent affordances of the print
 artifact. The simulation suggests a structuring of one kind, while
 enacting a structure of another.
 
+\section[tables]{Tables}
+
+\placetable{Demonstration of simple table syntax.}
+\starttable[|r|l|c|l|]
+\HL
+\NC Right
+\NC Left
+\NC Center
+\NC Default
+\NC\AR
+\HL
+\NC 12
+\NC 12
+\NC 12
+\NC 12
+\NC\AR
+\NC 123
+\NC 123
+\NC 123
+\NC 123
+\NC\AR
+\NC 1
+\NC 1
+\NC 1
+\NC 1
+\NC\AR
+\HL
+\stoptable
+
 In these novel conditions, the task of the literary scholar must
 include, among other things, a practice of microscopic reading that
 corresponds to the kind of micromolecular writing suggested by
-Baudrillard and Frederich Kittler (Kittler 1995). The full extent of the
-simulated figure must be made available for interpretation. What happens
-in the metaphorical transference between the book as a work of art and
-the apparatus simulating the book? Estrangement, the exegesis of the
-metaphor, reveals mechanisms of governance shaping mental experience. It
-apprehends the revealed mechanics of computational reading. Materialist
-poetics subsequently allow one to consent, or, conversely, to resist
-elements of imposed structure.
+Baudrillard and Frederich Kittler.\footnote{Friedrich A. Kittler, “There
+  Is No Software,” {\em CTHEORY} a032 (October 1995),
+  \useURL[url18][www.ctheory.net/articles.aspx?id=74]\from[url18].} The
+full extent of the simulated figure must be made available for
+interpretation. What happens in the metaphorical transference between
+the book as a work of art and the apparatus simulating the book?
+Estrangement, the exegesis of the metaphor, reveals mechanisms of
+governance shaping mental experience. It apprehends the revealed
+mechanics of computational reading. Materialist poetics subsequently
+allow one to consent, or, conversely, to resist elements of imposed
+structure.
 
 \reference[refs]{}%
-
-\reference[ref-aaron_flash_2002]{}%
-Aaron, V.-Y., and J. Leburton. 2002. “Flash Memory: Towards
-Single-Electronics.” {\em IEEE Potentials} 21 (4): 35--41.
-doi:\useURL[url1][https://doi.org/10.1109/MP.2002.1044216][][10.1109/MP.2002.1044216]\from[url1].
-
-\reference[ref-baudrillard_simulacra_1994]{}%
-Baudrillard, Jean. 1994. {\em Simulacra and Simulation}. Ann Arbor:
-University of Michigan Press.
-
-\reference[ref-baudrillard_selected_1988]{}%
-Baudrillard, Jean, and Mark Poster. 1988. {\em Selected Writings}.
-Stanford, Calif.: Stanford University Press.
-
-\reference[ref-bez_introduction_2003]{}%
-Bez, R., E. Camerlenghi, A. Modelli, and A. Visconti. 2003.
-“Introduction to Flash Memory.” {\em Proceedings of the IEEE} 91 (4):
-489--502.
-doi:\useURL[url2][https://doi.org/10.1109/JPROC.2003.811702][][10.1109/JPROC.2003.811702]\from[url2].
-
-\reference[ref-boyle_information_1974]{}%
-Boyle, W., and G. Smith. 1974. Information storage devices. US3858232 A,
-issued December 1974.
-\useURL[url3][http://www.google.com/patents/US3858232]\from[url3].
-
-\reference[ref-card_methods_2006]{}%
-Card, Stuart Kent, Richard Carl Gossweiler III, Allison Gyle Woodruff,
-and Jock Douglas MacKinlay. 2006. Methods, systems, and computer program
-products for the display and operation of virtual three-dimensional
-books. US7015910 B2, issued March 2006.
-\useURL[url4][http://www.google.com/patents/US7015910]\from[url4].
-
-\reference[ref-carroll_interface_1987]{}%
-Carroll, J. M, R. L Mack, and W. A Kellogg. 1987. {\em Interface
-Metaphors and User Interface Design}. San Jose {[}etc.{]}: IBM Thomas J.
-Watson Research Division.
-
-\reference[ref-carroll_metaphor_1982]{}%
-Carroll, J.M., and John C. Thomas. 1982. “Metaphor and the Cognitive
-Representation of Computing Systems.” {\em IEEE Transactions on Systems,
-Man and Cybernetics} 12 (2): 107--16.
-doi:\useURL[url5][https://doi.org/10.1109/TSMC.1982.4308795][][10.1109/TSMC.1982.4308795]\from[url5].
-
-\reference[ref-fry_circumventing_2009]{}%
-Fry, David. 2009. “Circumventing Access Controls Under the Digital
-Millennium Copyright Act: Analyzing the Securom Debate.” {\em Duke Law
-and Technology Review} 2009: 1.
-\useURL[url6][http://heinonline.org/HOL/Page?handle=hein.journals/dltr2009&id=65&div=&collection=]\from[url6].
-
-\reference[ref-gadamer_truth_1975]{}%
-Gadamer, Hans-Georg. 1975. {\em Truth and Method}. New York: Seabury
-Press.
-
-\reference[ref-ginsburg_legal_2005]{}%
-Ginsburg, Jane C. 2005. “Legal Protection of Technological Measures
-Protecting Works of Authorship: International Obligations and the US
-Experience.” SSRN Scholarly Paper ID 785945. Rochester, NY: Social
-Science Research Network.
-\useURL[url7][http://papers.ssrn.com/abstract=785945]\from[url7].
-
-\reference[ref-jakobson_closing_1960]{}%
-Jakobson, Roman. 1960. “Closing Statement: Linguistics and Poetics.” In
-{\em Style in Language}, edited by Thomas A Sebeok, 350--77.
-{[}Cambridge: Technology Press of Massachusetts Institute of Technology.
-
-\reference[ref-kittler_there_1995]{}%
-Kittler, Friedrich A. 1995. “There Is No Software.” {\em CTHEORY} a032
-(October).
-\useURL[url8][www.ctheory.net/articles.aspx?id=74]\from[url8].
-
-\reference[ref-ku_critique_2004]{}%
-Ku, Vicky. 2004. “Critique of the Digital Millenium Copyright Act's
-Exception on Encryption Research: Is the Exemption Too Narrow.”
-{\em Yale Journal of Law and Technology} 7: 465.
-\useURL[url9][http://heinonline.org/HOL/Page?handle=hein.journals/yjolt7&id=467&div=&collection=]\from[url9].
-
-\reference[ref-lakoff_contemporary_1998]{}%
-Lakoff, George. 1998. “The Contemporary Theory of Metaphor.” In
-{\em Metaphor and Thought}, edited by Andrew Ortony, 201--52. Cambridge:
-Cambridge University Press.
-
-\reference[ref-lakoff_invariance_2009]{}%
----------. 2009. “The Invariance Hypothesis: Is Abstract Reason Based on
-Image-Schemas?” {\em Cognitive Linguistics} 1 (1): 39--74.
-doi:\useURL[url10][https://doi.org/10.1515/cogl.1990.1.1.39][][10.1515/cogl.1990.1.1.39]\from[url10].
-
-\reference[ref-lakoff_metaphors_1980]{}%
-Lakoff, George, and Mark Johnson. 1980a. {\em Metaphors We Live by}.
-Chicago: University of Chicago Press.
-
-\reference[ref-lakoff_metaphorical_1980]{}%
----------. 1980b. “The Metaphorical Structure of the Human Conceptual
-System.” {\em Cognitive Science} 4 (2): 195--208.
-doi:\useURL[url11][https://doi.org/10.1016/S0364-0213(80)80017-6][][10.1016/S0364-0213(80)80017-6]\from[url11].
-
-\reference[ref-malinowski_problem_1923]{}%
-Malinowski, Bronislaw, I. A Richards, F. G Crookshank, and J. P
-Postgate. 1923. “The Problem of Meaning in Primitive Languages.” In
-{\em The Meaning of Meaning; a Study of the Influence of Language Upon
-Thought and of the Science of Symbolism,} edited by C. K Ogden, 146--52.
-London; New York: K. Paul, Trench, Trubner & Co.; Harcourt, Brace & Co.
-
-\reference[ref-pajak_electronic_1992]{}%
-Pajak, Henry G. 1992. Electronic library. EP0472070 A2, issued February
-1992.
-\useURL[url12][http://www.google.com/patents/EP0472070A2]\from[url12].
-
-\reference[ref-pavan_flash_1997]{}%
-Pavan, P., R. Bez, P. Olivo, and E. Zanoni. 1997. “Flash Memory Cells-an
-Overview.” {\em Proceedings of the IEEE} 85 (8): 1248--71.
-doi:\useURL[url13][https://doi.org/10.1109/5.622505][][10.1109/5.622505]\from[url13].
-
-\reference[ref-perzanowski_rethinking_2008]{}%
-Perzanowski, Aaron. 2008. “Rethinking Anticircumvention's
-Interoperability Policy.” SSRN Scholarly Paper ID 1224742. Rochester,
-NY: Social Science Research Network.
-\useURL[url14][http://papers.ssrn.com/abstract=1224742]\from[url14].
-
-\reference[ref-richards_philosophy_1936]{}%
-Richards, I. A. 1936. {\em The Philosophy of Rhetoric}. New York;
-London: Oxford University Press.
-
-\reference[ref-ricur_interpretation_1976]{}%
-Ricœur, Paul. 1976. {\em Interpretation Theory: Discourse and the
-Surplus of Meaning}. Fort Worth: Texas Christian University Press.
-
-\reference[ref-ruiz_de_mendoza_ibanez_nature_1998]{}%
-Ruiz de Mendoza Ibáñez, Francisco José. 1998. “On the Nature of Blending
-as a Cognitive Phenomenon.” {\em Journal of Pragmatics} 30 (3): 259--74.
-doi:\useURL[url15][https://doi.org/10.1016/S0378-2166(98)00006-X][][10.1016/S0378-2166(98)00006-X]\from[url15].
-
-\reference[ref-searle_metaphor_1998]{}%
-Searle, John R. 1998. “Metaphor.” In {\em Metaphor and Thought}, edited
-by Andrew Ortony, 83--112. Cambridge: Cambridge University Press.
-
-\reference[ref-_simulation_2015]{}%
-“Simulation, N.2.” 2015. {\em OED Online}. Oxford University Press.
-\useURL[url16][http://www.oed.com/view/Entry/100790]\from[url16].
-
-\reference[ref-spolsky_user_2001]{}%
-Spolsky, Joel. 2001. {\em User Interface Design for Programmers}.
-Berkeley, CA; New York, NY: Apress.
-
-\reference[ref-turner_death_1987]{}%
-Turner, Mark. 1987. {\em Death Is the Mother of Beauty: Mind, Metaphor,
-Criticism}. Chicago: University of Chicago Press.
-
-\reference[ref-turner_conceptual_1995]{}%
-Turner, Mark, and Gilles Fauconnier. 1995. “Conceptual Integration and
-Formal Expression.” {\em Metaphor and Symbolic Activity} 10 (3):
-183--204.
-doi:\useURL[url17][https://doi.org/10.1207/s15327868ms1003_3][][10.1207/s15327868ms1003_3]\from[url17].
-
-\reference[ref-unicode_consortium_unicode_1990]{}%
-Unicode Consortium. 1990. “The Unicode Standard: Worldwide Character
-Encoding, Version 1.” Addison-Wesley.
-
-\reference[ref-von_lohmann_unintended_2010]{}%
-Von Lohmann, Fred. 2010. {\em Unintended Consequences: Twelve Years
-Under the DMCA}. Electronic Frontier Foundation.
-\useURL[url18][http://eric.ed.gov/?id=ED509862]\from[url18].
-
-\placelistofpublications
-
 
 \stopchapter
 \stopcomponent

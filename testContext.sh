@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 rm -rf ConTeXtUnitTestOutput
 mkdir ConTeXtUnitTestOutput
 
@@ -10,9 +12,12 @@ for dir in $(find unitTestMarkdowns/ -mindepth 1 -maxdepth 1 -type d); do
 done
 
 for dir in $(find ConTeXtUnitTestOutput/ -mindepth 1 -maxdepth 1 -type d); do
+	cp $root/ConTeXt/env_journal.tex $dir/
 	cd $dir
-	for file in $(find . -name "*.md"); do
-		$root/ConTeXt/convert.sh $file
+	for file in $(find . -name "*.md"); do		
+		
+		$root/ConTeXt/convert.sh $file $dir
 	done	
+	cd ..
 done	
 

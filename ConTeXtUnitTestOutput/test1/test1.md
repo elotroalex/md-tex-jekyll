@@ -1,27 +1,70 @@
 ---
-layout: post
-title: Pandoc Tester
+title: 
+  "long": "A long title for the first unittest: exploring some features and questions of the nature of unit tests, poetry, and red lines."
+  "short": Poetry and Redlines
+  "crossref": poetry
+author: 
+- name: Franz Fanon
+  shortname: Fanon
+date: Febuary 2016
+issue: 102
+doi: 10.1215/07990537-2739812
 bibliography: references.bib
+csl: chicago.csl
 ---
+## French!
+
+Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de paradigme[^8] que représente l’édition numérique des textes. Du projet Gutenberg de 1971 au projet HyperNietzche actuellement développé au sein de l’ITEM, les éditions numériques ont évolué d’une simple transcription de texte jusqu’à devenir des outils perfectionnés d’analyse, qui ont changé notre façon de comprendre et d’étudier les textes. Tout au long de ce processus, malheureusement, de nombreux corpus importants de la littérature ont été laissés pour compte. Au cours des années 1990, la généralisation de l’internet a coïncidé avec une migration en masse des textes papier vers un support numérique. Mais cet effort étant nécessairement lié à un appui institutionnel et financier massif, la plus grande partie de ces efforts de numérisation ont porté sur les canons bibliographiques de l’Amérique du Nord et de l’Europe. D’autres champs littéraires, dont l’immense majorité des corpus de la sphère francophone (Afrique, Caraïbe essentiellement), n’ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l’attention s’est déplacée de la numérisation à la création d’outils d’analyse qui pourraient être appliqués à l’énorme quantité de données collectées, il est devenu encore plus difficile d’obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d’œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d’archives. L’édition d’une pièce d’Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation. n’ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l’attention s’est déplacée de la numérisation à la création d’outils d’analyse qui pourraient être appliqués à l’énorme quantité de données collectées, il est devenu encore plus difficile d’obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d’œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d’archives. L’édition d’une pièce d’Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation.
+
+[^5]: A rare first page footnote
+[^6]: oooh
+[^7]: just trying to
+[^8]: argh
+
+# Some Poetry
+
+- normal list
+- this should have bullets
 
 > - rather bear those ills we had,  
 > - Than fly to others, that we knew not of. {.red}
+>     - But brian can't write poetry
+>     - But he can indent
+> - blockquoted lines
 
-# Header red {.red}
+- but above
+- should not have bullets
+
+# A red header thingo {.red}
+
+## A sub red header thingo {.red}
+
+### A level threeeeeee header thingo {.red}
+
+Parmi les nombreux défis qui sont à relever par les équipes d’édition numérique, dans le cas d’objets éditoriaux complexes, l’un des plus délicats reste de réussir la collecte et de bien choisir ses stratégies de représentation éditoriale. Les textes de Césaire publiés sous le titre Et les chiens se taisaient sont l’un de ces objets éditoriaux complexes.  Réunir dans un seul espace en ligne les matériaux disparates (tapuscrits, livres imprimés, enregistrements, film) qui constituent cette archive sera déjà une réussite considérable.  Mais nous désirons ne pas nous arrêter là. Si la tâche de l’édition génétique, comme Walter Benjamin le disait de l’histoire matérialiste, consiste à « prendre possession de la mémoire, dans le cillement d’un éclair au moment du danger »[^1] – en l’occurrence une suite d’actes poétiques réalisés par Aimé Césaire et ses collaborateurs[^2]– alors il nous faut une édition qui puisse : 1) isoler ce que Jerome McGann[^3] appelle le code linguistique (les mots) et le code bibliographique (l’arrangement, la typographie, le support matériel, etc. de façon à ne pas déstabiliser leur équilibre délicat[^4] ; 2) représenter de façon dynamique la trajectoire et l’interrelation entre les éléments des différents états du texte, afin de nous permettre de recréer le long processus génétique de l’archive. L’absence de coordination entre ces deux fonctionnalités a imposé jusqu’à aujourd’hui une séparation entre les outils d’analyse et la représentation des textes en ligne. Pour nous, l’avenir de l’édition génétique suppose la capacité de joindre l’analyse à la représentation. Les ressources technologiques n’ont pas encore permis de concrétiser toutes nos intentions, mais notre but est de faire reculer les limites actuelles.
+
+[^1]: This is a footnote?
+[^2]: another footnote
+[^3]: Shockingly, a footnote
+[^4]: The footnotes come marching, one by one...
+
+> At the limit of an always increasing elimination of references and finalities, an ever-increasing loss of resemblances and designations, we find the digital and programmatic sign, whose "value" is purely *tactical*, at the intersection of other signals ("bits" of information/tests) whose structure is that of a micromolecular code of command and control [@baudrillard_selected_1988, 139-140].
+
+Roman Jakobson called such construction and deconstruction of meaning the "profuse exchange of ritualized formulas" or the phatic function of language [@malinowski_problem_1923, 146; @jakobson_closing_1960, 355]. In the phatic function lies the essence of programming. Code shapes and commands. At the same time, it conjures fantastical metaphors to occlude the structure of shaping and commanding. Simulation obscures the incongruence between visible representation and the underlying material affordances of the medium. What you see is not always what you get. We are instead confronted with a composite image, which under examination reveals a complex process of transfiguration between the visible sign and the sign at the site of the inscription. When reading online, for example, we observe what looks like a book, where we should also perceive an attempt to sensor and surveil. The simulation is without a referent. It bares no resemblance to the material substratum of electronic reading. We believe we are handling a book. Our ideas about reading and interpretation subsequently rely on that initial physical point of contact with paper. But when reading electronically, we are handling something other than print material. The resemblance to paper guides our intuitions about the possibilities of the medium: the ability to scroll, bookmark, or turn pages.  We have far fewer intuitions about the affordances of inscription at the micromolecular level. As we "turn the page" an electric charge crosses the impenetrable oxide barrier to reach the floating gate through quantum tunnelling [@pavan_flash_1997; @aaron_flash_2002; @bez_introduction_2003].
+
+
+
+# A black header thingo 
+
+## A sub balck header thingo 
+
+### A level threeeeeee header thingo 
 
 We should talk about this template. Some things to discuss:
 
 - separate bib file?
 - yaml metadata
 - tests for correct submission
-
-Il est désormais difficile de nier le changement fondamental de paradigme que représente l’édition numérique des textes. Du projet Gutenberg de 1971 au projet HyperNietzche actuellement développé au sein de l’ITEM, les éditions numériques ont évolué d’une simple transcription de texte jusqu’à devenir des outils perfectionnés d’analyse, qui ont changé notre façon de comprendre et d’étudier les textes. Tout au long de ce processus, malheureusement, de nombreux corpus importants de la littérature ont été laissés pour compte. Au cours des années 1990, la généralisation de l’internet a coïncidé avec une migration en masse des textes papier vers un support numérique. Mais cet effort étant nécessairement lié à un appui institutionnel et financier massif, la plus grande partie de ces efforts de numérisation ont porté sur les canons bibliographiques de l’Amérique du Nord et de l’Europe. D’autres champs littéraires, dont l’immense majorité des corpus de la sphère francophone (Afrique, Caraïbe essentiellement), n’ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l’attention s’est déplacée de la numérisation à la création d’outils d’analyse qui pourraient être appliqués à l’énorme quantité de données collectées, il est devenu encore plus difficile d’obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d’œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d’archives. L’édition d’une pièce d’Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation.
-
-Parmi les nombreux défis qui sont à relever par les équipes d’édition numérique, dans le cas d’objets éditoriaux complexes, l’un des plus délicats reste de réussir la collecte et de bien choisir ses stratégies de représentation éditoriale. Les textes de Césaire publiés sous le titre Et les chiens se taisaient sont l’un de ces objets éditoriaux complexes.  Réunir dans un seul espace en ligne les matériaux disparates (tapuscrits, livres imprimés, enregistrements, film) qui constituent cette archive sera déjà une réussite considérable.  Mais nous désirons ne pas nous arrêter là. Si la tâche de l’édition génétique, comme Walter Benjamin le disait de l’histoire matérialiste, consiste à « prendre possession de la mémoire, dans le cillement d’un éclair au moment du danger »[1] – en l’occurrence une suite d’actes poétiques réalisés par Aimé Césaire et ses collaborateurs[2]– alors il nous faut une édition qui puisse : 1) isoler ce que Jerome McGann[3] appelle le code linguistique (les mots) et le code bibliographique (l’arrangement, la typographie, le support matériel, etc. de façon à ne pas déstabiliser leur équilibre délicat[4] ; 2) représenter de façon dynamique la trajectoire et l’interrelation entre les éléments des différents états du texte, afin de nous permettre de recréer le long processus génétique de l’archive. L’absence de coordination entre ces deux fonctionnalités a imposé jusqu’à aujourd’hui une séparation entre les outils d’analyse et la représentation des textes en ligne. Pour nous, l’avenir de l’édition génétique suppose la capacité de joindre l’analyse à la représentation. Les ressources technologiques n’ont pas encore permis de concrétiser toutes nos intentions, mais notre but est de faire reculer les limites actuelles.
-
-> At the limit of an always increasing elimination of references and finalities, an ever-increasing loss of resemblances and designations, we find the digital and programmatic sign, whose "value" is purely *tactical*, at the intersection of other signals ("bits" of information/tests) whose structure is that of a micromolecular code of command and control [@baudrillard_selected_1988, 139-140].
-
-Roman Jakobson called such construction and deconstruction of meaning the "profuse exchange of ritualized formulas" or the phatic function of language [@malinowski_problem_1923, 146; @jakobson_closing_1960, 355]. In the phatic function lies the essence of programming. Code shapes and commands. At the same time, it conjures fantastical metaphors to occlude the structure of shaping and commanding. Simulation obscures the incongruence between visible representation and the underlying material affordances of the medium. What you see is not always what you get. We are instead confronted with a composite image, which under examination reveals a complex process of transfiguration between the visible sign and the sign at the site of the inscription. When reading online, for example, we observe what looks like a book, where we should also perceive an attempt to sensor and surveil. The simulation is without a referent. It bares no resemblance to the material substratum of electronic reading. We believe we are handling a book. Our ideas about reading and interpretation subsequently rely on that initial physical point of contact with paper. But when reading electronically, we are handling something other than print material. The resemblance to paper guides our intuitions about the possibilities of the medium: the ability to scroll, bookmark, or turn pages.  We have far fewer intuitions about the affordances of inscription at the micromolecular level. As we "turn the page" an electric charge crosses the impenetrable oxide barrier to reach the floating gate through quantum tunnelling [@pavan_flash_1997; @aaron_flash_2002; @bez_introduction_2003].
 
 Unlike figurative language, machine control languages function in the imperative. They do not stand for action---they are action. Code represents only the exercise of power. More binding than the "speech acts" J.L. Austin, control codes arrange and regulate. The difference between representation and control is one of brute force. It lies in the distinction between a restraining order and physical restraint. A restraining order *represents* the calling forth of codified power. Physical restraints like handcuffs *enact* the exercise of codified power. Like all violence they do not stand for anything. Stripped of references, resemblances, and designations, they are in themselves an arrangement and rearrangement of matter. The handcuffs contort the body into the shape of submission. Absent a body, the restraints draw an empty shape.
 
@@ -73,7 +116,19 @@ The simulation is perhaps necessary, because the reading and writing of digital 
 
 Whatever the complexities of solid state storage architecture, the difference in arrangement of information between pages and floating gates---at the root of modern "sold state" storage---is apparent. The structure of one has only an arbitrary connection to the structure of the other. Consequently changes in the structure of one domain do not necessitate changes in the structure of another: to "erase a word" on a projected, virtual page thus may not have the corresponding effect on the level of the storage medium. The information may persist despite the intended erasure. As dwellers of simulated worlds, we hope that the analogy between paper and pixel achieves a level of verisimilitude.  Turning the page or erasing a word on the screen should do something similar on the disk. However, we also know that not to be the case. As in Baudrillard's map, the metaphor is broken in that it no longer reflects any terrain. The computational metaphor simulates the familiar but absent affordances of the print artifact. The simulation suggests a structuring of one kind, while enacting a structure of another.
 
+# Tables
+
+   Right     Left       Center     Default
+--------     ------- -----------   -------
+      12     12          12            12
+     123     123         123          123
+       1     1            1             1
+
+Table:  Demonstration of simple table syntax.
+
 In these novel conditions, the task of the literary scholar must include, among other things, a practice of microscopic reading that corresponds to the kind of micromolecular writing suggested by Baudrillard and Frederich Kittler [@kittler_there_1995]. The full extent of the simulated figure must be made available for interpretation. What happens in the metaphorical transference between the book as a work of art and the apparatus simulating the book?  Estrangement, the exegesis of the metaphor, reveals mechanisms of governance shaping mental experience. It apprehends the revealed mechanics of computational reading. Materialist poetics subsequently allow one to consent, or, conversely, to resist elements of imposed structure.
+
+
 
 
 [^ln4-nested]: The notion of "digital text" itself is a metaphor. Files do not really hold texts. The idea of "text" identifies a segment of stored memory coupled with control codes that govern layout and projection in specific material context. Together, these diverse signals and physical affordances create the illusion of a single text.
