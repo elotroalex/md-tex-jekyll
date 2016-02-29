@@ -11,13 +11,17 @@ for dir in $(find unitTestMarkdowns/ -mindepth 1 -maxdepth 1 -type d); do
 	cp -r $dir ConTeXtUnitTestOutput
 done
 
+echo "making"
+
 for dir in $(find ConTeXtUnitTestOutput/ -mindepth 1 -maxdepth 1 -type d); do
-	cp $root/ConTeXt/env_journal.tex $dir/
-	cd $dir
+	cd $root/$dir
+	echo $root/$dir
+	cp $root/ConTeXt/env_journal.tex $root/$dir/
+	
 	for file in $(find . -name "*.md"); do		
 		
 		$root/ConTeXt/convert.sh $file $dir
 	done	
-	cd ..
+	
 done	
 

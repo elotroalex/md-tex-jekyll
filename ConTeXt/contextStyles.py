@@ -22,6 +22,8 @@ def context(s):
 
 
 def mycite(key, value, fmt, meta):		
+
+
 	if key == 'Header' and fmt == 'context':
 				
 		style = value[1][1]
@@ -31,23 +33,70 @@ def mycite(key, value, fmt, meta):
 			value[2]= [context("\color[red]{")]+value[2]+[context('}')]
 		
 		return Header(value[0], value[1], value[2])
-	elif key == "BulletList":
-		try: 
-			for val in value:
+	if key == 'Para' and fmt == 'context':
+		keysToInsert=[]
+		redKeys=[]
+		if type(value) is list:
+			for key,val in enumerate(value):
+				if val == {   u'c': [], u't': u'LineBreak'}:
+					keysToInsert.append(key)
 				
-				if val[0] and  'c' in val[0] and {   u'c': u'{.red}', u't': u'Str'} in val[0]['c']:
-					val[0]['c'].remove({   u'c': u'{.red}', u't': u'Str'})
-					val[0]['c']=[context("\color[red]{")]+val[0]['c']+[context('}')]
-				for i in range(1,10):
-					if val[0] and  'c' in val[0] and {   u'c': u'{.indent'+str(i)+'}', u't': u'Str'} in val[0]['c']:
-						val[0]['c'].remove({   u'c': u'{.indent'+str(i)+'}', u't': u'Str'})
-						val[0]['c']=[context("\hspace["+str(i)+"]")]+val[0]['c']
-		except KeyError:
-			warning("")
 
-	elif key == 'BlockQuote':
-		if "BulletList" in value[0]['t']:
-			value.insert(0,RawBlock('context',"\\definesymbol[bigsquare][]\setupitemize[symbol={}]"))
+		inserted=0					
+		for key in keysToInsert:
+			value.insert(key+inserted+1,context("\strut "))
+			inserted=inserted+1
+
+		lastLineBreak=0
+		if type(value) is list:
+			for key,val in enumerate(value):
+				if val == {   u'c': [], u't': u'LineBreak'}:
+					lastLineBreak=key+2
+				if val == {   u'c': u'{.red}', u't': u'Str'}:
+					redKeys.append((lastLineBreak, key))
+					val['c']=''
+
+
+
+		inserted=0					
+		for key in redKeys:
+			start, end = key
+			value.insert(int(start)+inserted,context("\color[red]{"))
+			value.insert(end+inserted,context("}"))
+			inserted=inserted+2
+
+
+
+		#warning(value)
+		
+#		if type(value) is dict and u'\xa0' in value['c']:
+#			warning(value)
+#
+#		for val in value:
+			#
+#			if 't' in val and val['t'] == 'Str':
+#				if u'\xa0' in val['c']:
+					#
+#					val['c'] = val['c'].replace(u'\xa0',u'~')
+#					val = [context("\strut!")]+[val]
+				
+	#elif key == "BulletList":
+	#	try: 
+	#		for val in value:
+				
+	#			if val[0] and  'c' in val[0] and {   u'c': u'{.red}', u't': u'Str'} in val[0]['c']:
+	#				val[0]['c'].remove({   u'c': u'{.red}', u't': u'Str'})
+	#				val[0]['c']=[context("\color[red]{")]+val[0]['c']+[context('}')]
+	#			for i in range(1,10):
+	#				if val[0] and  'c' in val[0] and {   u'c': u'{.indent'+str(i)+'}', u't': u'Str'} in val[0]['c']:
+	#					val[0]['c'].remove({   u'c': u'{.indent'+str(i)+'}', u't': u'Str'})
+	#					val[0]['c']=[context("\hspace["+str(i)+"]")]+val[0]['c']
+	#	except KeyError:
+	#		warning("")
+
+	#elif key == 'BlockQuote':
+	#	if "BulletList" in value[0]['t']:
+	#		value.insert(0,RawBlock('context',"\\definesymbol[bigsquare][]\setupitemize[symbol={}]"))
 			
 
 

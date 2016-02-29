@@ -5,7 +5,7 @@ if [ -z $1 ]; then
 	echo "./convert.sh foo.md"
 	exit 1;
 fi
-
+echo "Starting $1"
 fullfile=$1
 
 root=$(git rev-parse --show-toplevel)
@@ -24,4 +24,4 @@ context --purgeall --batchmode $filename.tex --path=$2 > contextRunLog.log
 
 subl contextRunLog.log
 subl pandoc.log
-evince $filename.pdf
+evince $filename.pdf &
