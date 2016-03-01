@@ -15,6 +15,20 @@ Franz Fanon
 }
 \stoplines
 
+\startlines\setupindenting[no]
+
+This is some line of poetry
+\strut An another line
+\strut And the last line of this stanza
+
+This is another line in another stanza
+\strut ~~~~~~This one is tabbed twice
+\strut ~~And this one once
+
+The rivetting conclusion
+
+\stoplines
+
 \subsection[french]{French!}
 
 Il est désormais difficile de nier\footnote{A rare first page footnote}
@@ -66,24 +80,23 @@ cette solution la micro-numérisation.
   this should have bullets
 \stopitemize
 
-rather bear those ills we had,\crlf
-\strut \color[red]{Than fly to others, that we knew not of.} \crlf
-\strut ~~~~But brian can't write poetry\crlf
-\strut \color[red]{~~~~But he can indent} \crlf
-\strut blockquoted lines\crlf
-\strut \color[red]{This is} \crlf
-\strut a test\crlf
-\strut ~~~~to compel some spaces\crlf
-\strut ~~~~though this is at the same ul level.\crlf
-\strut and this is back\crlf
-\strut because poets.\crlf
-\strut base line\crlf
-\strut ~base line indent 1\crlf
-\strut ~~base line indent 2\crlf
-\strut ~~~base line indent 3\crlf
-\strut ~~~~base line indent 4\crlf
-\strut ~~~~~indented line\crlf
-\strut ~~~~~~~~~8 spaces
+\startlines\setupindenting[no]
+
+\color[red]{rather\color[red]{ \color[red]{bear those ills we had,
+\strut Than fly to others, that we knew not of.}
+\strut ~~~~But brian can't write poetry
+\strut ~~~~But he can indent}
+\strut blockquoted lines
+\strut This is}
+\strut a test
+\strut ~~~~to compel some spaces
+\strut ~~~~though this is at the same ul level.
+
+\letterbar{} and this is back \letterbar{} because poets. \letterbar{}
+base line \letterbar{} base line indent 1 \letterbar{} base line indent
+2 \letterbar{} base line indent 3 \letterbar{} base line indent 4
+\letterbar{} indented line \letterbar{} 8 spaces
+\stoplines
 
 \startitemize[packed]
 \item
