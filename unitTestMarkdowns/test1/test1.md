@@ -22,20 +22,25 @@ Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de par
 [^7]: just trying to
 [^8]: argh
 
-# Some Poetry
+# A list
 
 - normal list
 - this should have bullets
 
+# Some poetry with two stanzas
+
+<div class ="poetry">
+	
 | rather bear those ills we had,  
-| Than fly to others, that we knew not of. {.red}
+| Than fly to others, that we knew not of.
 |     But brian can't write poetry
-|     But he can indent {.red}
+|     But he can indent
 | blockquoted lines
-| This is {.red}
+| This is
 | a test
 |     to compel some spaces 
 |     though this is at the same ul level.
+
 | and this is back
 | because poets.
 | base line
@@ -45,6 +50,24 @@ Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de par
 |     base line indent 4 
 |      indented line
 |          8 spaces
+
+</div>
+
+# Some poetry with no stanzas
+
+<div class ="poetry">
+
+| rather bear those ills we had,  
+| Than fly to others, that we knew not of.
+|     But brian can't write poetry
+|     But he can indent
+| blockquoted lines
+| This is
+| a test
+|     to compel some spaces 
+|     though this is at the same ul level.
+
+</div>
 
 
 - but above
