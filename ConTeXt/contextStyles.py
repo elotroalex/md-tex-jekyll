@@ -48,6 +48,28 @@ def mycite(key, value, fmt, meta):
     if key == 'Para' and fmt == 'context':
         keysToInsert=[]
         redKeys=[]
+
+
+        lastLineBreak=0
+        if type(value) is list:
+            for key,val in enumerate(value):
+                if val == {   u'c': [], u't': u'LineBreak'}:
+                    lastLineBreak=key+1
+                if val == {   u'c': u'{.red}', u't': u'Str'}:
+                    redKeys.append((lastLineBreak, key))
+                    val['c']=''
+
+
+
+        inserted=0                  
+        for key in redKeys:
+            start, end = key
+            value.insert(int(start)+inserted,context("\color[red]{"))
+            value.insert(end+inserted,context("}"))
+            inserted=inserted+2
+
+
+
         lastLineBreak=0
         if type(value) is list:
             for key,val in enumerate(value):
@@ -67,25 +89,7 @@ def mycite(key, value, fmt, meta):
 
 
 
-        lastLineBreak=0
-        if type(value) is list:
-            for key,val in enumerate(value):
-                if val == {   u'c': [], u't': u'LineBreak'}:
-                    lastLineBreak=key+2
-                if val == {   u'c': u'{.red}', u't': u'Str'}:
-                    redKeys.append((lastLineBreak, key))
-                    val['c']=''
-
-
-
-        inserted=0                  
-        for key in redKeys:
-            start, end = key
-            value.insert(int(start)+inserted,context("\color[red]{"))
-            value.insert(end+inserted,context("}"))
-            inserted=inserted+2
-
-
+       
 
         #warning(value)
         

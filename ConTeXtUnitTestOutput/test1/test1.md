@@ -32,14 +32,14 @@ Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de par
 <div class ="poetry">
 	
 | rather bear those ills we had,  
-| Than fly to others, that we knew not of.
+| Than fly to others, that we knew not of. {.red}
 |     But brian can't write poetry
-|     But he can indent
+|     But he can indent {.red}
 | blockquoted lines
-| This is
+| This is {.red}
 | a test
 |     to compel some spaces 
-|     though this is at the same ul level.
+|     though this is at the same ul level. {.red}
 
 | and this is back
 | because poets.
