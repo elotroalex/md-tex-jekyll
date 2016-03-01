@@ -6,6 +6,10 @@ title:
 author: 
 - name: Franz Fanon
   shortname: Fanon
+- name: Brian Ballsun-Stanton
+  shortname: Ballsun-Stanton
+- name: Alex Gil
+  shortname: Gil  
 date: Febuary 2016
 issue: 102
 doi: 10.1215/07990537-2739812
