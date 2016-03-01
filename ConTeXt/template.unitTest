@@ -1,4 +1,4 @@
-\setvariables[article][shortauthor={$for(author)$$author.shortname$$sep$,$endfor$}, date={$date$}, issue={$issue$}, DOI={$doi$}]
+\setvariables[article][shortauthor={$for(author)$$author.shortname$$sep$, $endfor$}, date={$date$}, issue={$issue$}, DOI={$doi$}]
 
 \environment env_journal
 
