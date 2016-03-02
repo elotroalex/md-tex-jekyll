@@ -1,0 +1,63 @@
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=middleblue]
+
+\setuppapersize [letter][letter]
+\setuplayout    [width=middle,  backspace=1.5in, cutspace=1.5in,
+                 height=middle, topspace=0.75in, bottomspace=0.75in]
+
+\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt]
+
+\setupwhitespace[medium]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfc]
+\setuphead[subsection]   [style=\tfb]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal, location=hanging, width=broad, margin=1cm]
+
+\setupitemize[autointro]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\blank[medium]},
+   after={\blank[medium]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+Fair fa' your honest, sonsie face,\crlf
+\strut~~~~Great Chieftain o' the Puddin'-race!\crlf
+Aboon them a' ye tak your place,\crlf
+\strut~~~~~~~~~~Painch, tripe, or thairm:\crlf
+Weel are ye wordy o' a grace\crlf
+\strut~~~~~~~~~~As lang's my arm.
+
+Fair fa' your honest, sonsie face,\crlf
+\strut\hskip16pt Great Chieftain o' the Puddin'-race!\crlf
+Aboon them a' ye tak your place,\crlf
+\strut\hskip44pt Painch, tripe, or thairm:\crlf
+Weel are ye wordy o' a grace\crlf
+\strut\hskip44pt As lang's my arm.
+
+
+\stoptext
