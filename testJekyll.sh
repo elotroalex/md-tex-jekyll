@@ -15,13 +15,8 @@ filename=$(basename "$fullfile")
 extension="${filename##*.}"
 filename="${filename%.*}"
 
-# pandoc --smart --normalize -f markdown -t native --filter ./contextBibliography.py -o $filename.nat $1
 echo Pandoc $filename
-pandoc --template $root/ConTeXt/template.unitTest --smart --normalize -f markdown -t context --filter pandoc-citeproc --filter $root/ConTeXt/contextStyles.py -o $filename.tex $1 2> pandoc.log
-echo ConTeXt $filename
+pandoc --smart --normalize -f markdown -t --filter pandoc-citeproc -o $filename.md $1 2> pandoc.log
 
-context --purgeall --batchmode $filename.tex --path=$2 > contextRunLog.log 
-
-subl contextRunLog.log
 subl pandoc.log
-evince $filename.pdf &
+evince $filename.md &
