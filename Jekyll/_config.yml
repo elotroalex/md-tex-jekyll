@@ -18,7 +18,7 @@ pandoc:
   extensions:
     - normalize
     - smart
-    - csl: _styles/modern-language-association.csl
+    - csl: _styles/chicago.csl
     - bibliography: bibliography/references.bib
 
 # About/contact
