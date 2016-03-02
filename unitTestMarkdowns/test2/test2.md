@@ -1,8 +1,23 @@
 ---
 layout: post
-title: Pandoc Tester
+title: 
+  "long": "A long title for the first unittest: exploring some features and questions of the nature of unit tests, poetry, and red lines."
+  "short": Poetry and Redlines
+  "crossref": poetry
+author: 
+- name: Franz Fanon
+  shortname: Fanon
+date: Febuary 2016
+issue: 102
+doi: 10.1215/07990537-2739812
+bibliography: references.bib
+csl: chicago.csl
+category: first-issue
 ---
 
+## My Introduction is in French!
+
+Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de paradigme[^8] que représente l'édition numérique des textes. Du projet Gutenberg de 1971 au projet HyperNietzche actuellement développé au sein de l'ITEM, les éditions numériques ont évolué d'une simple transcription de texte jusqu'à devenir des outils perfectionnés d'analyse, qui ont changé notre façon de comprendre et d'étudier les textes. Tout au long de ce processus, malheureusement, de nombreux corpus importants de la littérature ont été laissés pour compte. Au cours des années 1990, la généralisation de l'internet a coïncidé avec une migration en masse des textes papier vers un support numérique. Mais cet effort étant nécessairement lié à un appui institutionnel et financier massif, la plus grande partie de ces efforts de numérisation ont porté sur les canons bibliographiques de l'Amérique du Nord et de l'Europe. D'autres champs littéraires, dont l'immense majorité des corpus de la sphère francophone (Afrique, Caraïbe essentiellement), n'ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l'attention s'est déplacée de la numérisation à la création d'outils d'analyse qui pourraient être appliqués à l'énorme quantité de données collectées, il est devenu encore plus difficile d'obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d'œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d'archives.
 
 
 <div class="poetry">
@@ -19,23 +34,36 @@ title: Pandoc Tester
 
 </div>
 
+L'édition d'une pièce d'Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation. n'ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l'attention s'est déplacée de la numérisation à la création d'outils d'analyse qui pourraient être appliqués à l'énorme quantité de données collectées, il est devenu encore plus difficile d'obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d'œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d'archives. L'édition d'une pièce d'Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation.
+
+[^5]: A rare first page footnote
+[^6]: oooh
+[^7]: just trying to
+[^8]: argh
 
 
-# Header red {.red}
+## A red header thingo 
 
-We should talk about this template. Some things to discuss:
+Parmi les nombreux défis qui sont à relever par les équipes d'édition numérique, dans le cas d'objets éditoriaux complexes, l'un des plus délicats reste de réussir la collecte et de bien choisir ses stratégies de représentation éditoriale. Les textes de Césaire publiés sous le titre Et les chiens se taisaient sont l'un de ces objets éditoriaux complexes.  Réunir dans un seul espace en ligne les matériaux disparates (tapuscrits, livres imprimés, enregistrements, film) qui constituent cette archive sera déjà une réussite considérable.  Mais nous désirons ne pas nous arrêter là. Si la tâche de l'édition génétique, comme Walter Benjamin le disait de l'histoire matérialiste, consiste à « prendre possession de la mémoire, dans le cillement d'un éclair au moment du danger »[^1] -- en l'occurrence une suite d'actes poétiques réalisés par Aimé Césaire et ses collaborateurs[^2]-- alors il nous faut une édition qui puisse : 1) isoler ce que Jerome McGann[^3] appelle le code linguistique (les mots) et le code bibliographique (l'arrangement, la typographie, le support matériel, etc. de façon à ne pas déstabiliser leur équilibre délicat[^4] ; 2) représenter de façon dynamique la trajectoire et l'interrelation entre les éléments des différents états du texte, afin de nous permettre de recréer le long processus génétique de l'archive. L'absence de coordination entre ces deux fonctionnalités a imposé jusqu'à aujourd'hui une séparation entre les outils d'analyse et la représentation des textes en ligne. Pour nous, l'avenir de l'édition génétique suppose la capacité de joindre l'analyse à la représentation. Les ressources technologiques n'ont pas encore permis de concrétiser toutes nos intentions, mais notre but est de faire reculer les limites actuelles.
 
-- separate bib file?
-- yaml metadata
-- tests for correct submission
-
-Il est désormais difficile de nier le changement fondamental de paradigme que représente l’édition numérique des textes. Du projet Gutenberg de 1971 au projet HyperNietzche actuellement développé au sein de l’ITEM, les éditions numériques ont évolué d’une simple transcription de texte jusqu’à devenir des outils perfectionnés d’analyse, qui ont changé notre façon de comprendre et d’étudier les textes. Tout au long de ce processus, malheureusement, de nombreux corpus importants de la littérature ont été laissés pour compte. Au cours des années 1990, la généralisation de l’internet a coïncidé avec une migration en masse des textes papier vers un support numérique. Mais cet effort étant nécessairement lié à un appui institutionnel et financier massif, la plus grande partie de ces efforts de numérisation ont porté sur les canons bibliographiques de l’Amérique du Nord et de l’Europe. D’autres champs littéraires, dont l’immense majorité des corpus de la sphère francophone (Afrique, Caraïbe essentiellement), n’ont pas été pris en compte, pour des raisons diverses (institutionnelles, technologiques, juridiques etc.) En ce début de XXIème siècle, au moment où l’attention s’est déplacée de la numérisation à la création d’outils d’analyse qui pourraient être appliqués à l’énorme quantité de données collectées, il est devenu encore plus difficile d’obtenir des fonds pour les projets de numérisation à grande échelle de ces littératures négligées. Une solution provisoire, donc, consiste à créer des éditions numériques d’œuvres-clé de ces grands corpus, en laissant de côté pour le moment la numérisation massive des fonds d’archives. L’édition d’une pièce d’Aimé Césaire se propose donc un but démonstratif et exemplaire.  Appelons cette solution la micro-numérisation.
-
-Parmi les nombreux défis qui sont à relever par les équipes d’édition numérique, dans le cas d’objets éditoriaux complexes, l’un des plus délicats reste de réussir la collecte et de bien choisir ses stratégies de représentation éditoriale. Les textes de Césaire publiés sous le titre Et les chiens se taisaient sont l’un de ces objets éditoriaux complexes.  Réunir dans un seul espace en ligne les matériaux disparates (tapuscrits, livres imprimés, enregistrements, film) qui constituent cette archive sera déjà une réussite considérable.  Mais nous désirons ne pas nous arrêter là. Si la tâche de l’édition génétique, comme Walter Benjamin le disait de l’histoire matérialiste, consiste à « prendre possession de la mémoire, dans le cillement d’un éclair au moment du danger »[1] – en l’occurrence une suite d’actes poétiques réalisés par Aimé Césaire et ses collaborateurs[2]– alors il nous faut une édition qui puisse : 1) isoler ce que Jerome McGann[3] appelle le code linguistique (les mots) et le code bibliographique (l’arrangement, la typographie, le support matériel, etc. de façon à ne pas déstabiliser leur équilibre délicat[4] ; 2) représenter de façon dynamique la trajectoire et l’interrelation entre les éléments des différents états du texte, afin de nous permettre de recréer le long processus génétique de l’archive. L’absence de coordination entre ces deux fonctionnalités a imposé jusqu’à aujourd’hui une séparation entre les outils d’analyse et la représentation des textes en ligne. Pour nous, l’avenir de l’édition génétique suppose la capacité de joindre l’analyse à la représentation. Les ressources technologiques n’ont pas encore permis de concrétiser toutes nos intentions, mais notre but est de faire reculer les limites actuelles.
+[^1]: This is a footnote?
+[^2]: another footnote
+[^3]: Shockingly, a footnote
+[^4]: The footnotes come marching, one by one...
 
 > At the limit of an always increasing elimination of references and finalities, an ever-increasing loss of resemblances and designations, we find the digital and programmatic sign, whose "value" is purely *tactical*, at the intersection of other signals ("bits" of information/tests) whose structure is that of a micromolecular code of command and control [@baudrillard_selected_1988, 139-140].
 
 Roman Jakobson called such construction and deconstruction of meaning the "profuse exchange of ritualized formulas" or the phatic function of language [@malinowski_problem_1923, 146; @jakobson_closing_1960, 355]. In the phatic function lies the essence of programming. Code shapes and commands. At the same time, it conjures fantastical metaphors to occlude the structure of shaping and commanding. Simulation obscures the incongruence between visible representation and the underlying material affordances of the medium. What you see is not always what you get. We are instead confronted with a composite image, which under examination reveals a complex process of transfiguration between the visible sign and the sign at the site of the inscription. When reading online, for example, we observe what looks like a book, where we should also perceive an attempt to sensor and surveil. The simulation is without a referent. It bares no resemblance to the material substratum of electronic reading. We believe we are handling a book. Our ideas about reading and interpretation subsequently rely on that initial physical point of contact with paper. But when reading electronically, we are handling something other than print material. The resemblance to paper guides our intuitions about the possibilities of the medium: the ability to scroll, bookmark, or turn pages.  We have far fewer intuitions about the affordances of inscription at the micromolecular level. As we "turn the page" an electric charge crosses the impenetrable oxide barrier to reach the floating gate through quantum tunnelling [@pavan_flash_1997; @aaron_flash_2002; @bez_introduction_2003].
+
+
+
+## Another header thingo 
+
+ We should talk about this template. Some things to discuss:
+
+- separate bib file?
+- yaml metadata
+- tests for correct submission
 
 Unlike figurative language, machine control languages function in the imperative. They do not stand for action---they are action. Code represents only the exercise of power. More binding than the "speech acts" J.L. Austin, control codes arrange and regulate. The difference between representation and control is one of brute force. It lies in the distinction between a restraining order and physical restraint. A restraining order *represents* the calling forth of codified power. Physical restraints like handcuffs *enact* the exercise of codified power. Like all violence they do not stand for anything. Stripped of references, resemblances, and designations, they are in themselves an arrangement and rearrangement of matter. The handcuffs contort the body into the shape of submission. Absent a body, the restraints draw an empty shape.
 
@@ -43,7 +71,7 @@ Code acts similarly to shape the word. Located somewhere between idea and materi
 
 Formats could only seem insignificant in the past when they were few and simple. The transition between static and dynamic media necessitates renewed attention to the formatting layer of meaning making. What you saw is what you got on the page. On the screen, what you see is but a small part of what you get. The content---all that is contained on a page---shifts beneath the projected image. In print, content can be gleaned from the surface. There is nothing but surface on a page. The screen is a layered surface. Sandwiched between panes of glass, liquid crystal moves in response to electrical modulation. The ebb and flow of electricity in turn reflects yet another layer of codification, inscribed onto yet other recondite planes of inscription. A byte, made up of eight binary bits, holds a letter. The string of letters spelling out "hello world" occupies eleven bytes, if you count the space. A file in the Portable Document Format (`.pdf`) containing nothing but "hello world" takes up 24,335 bytes on my system. Encoding accounts for the disparity between plain text and fancy text, the latter defined as "text representation consisting of plain text plus added information" [@unicode_consortium_unicode_1990].
 
-![Forms and formats.](images/forms.png)
+![Forms and formats.](/images/forms.png)
 
 In cognitive metaphor theory, the kind of resemblances that we have been discussing so far are called *structural metaphors*. "Structural metaphors allow us to do much more than just orient concepts," Lakoff and Johnson wrote [@lakoff_metaphors_1980, 61]. Grounded in "systematic correlations within our experience," structural metaphors transfer organizing principles from one domain to another. Thus to say something like "time is money" is to suggest that something in the arrangement of the financial system correlates systematically to something in the arrangement of the temporal system [@lakoff_metaphors_1980, 65-8]. It is a structural and not just a semantic similarity. If metaphors work by transferring qualities, structure is the quality being transferred in all of the above cases. Structural metaphors organize one thing in the shape of another. They are for this reason key to understanding the transference that takes place in the interface between human and machine.
 
@@ -51,13 +79,13 @@ In cognitive metaphor theory, the kind of resemblances that we have been discuss
 
 In the so-called classical view, metaphors are simply a type of figurative language. To say "the day stands tiptoe on the misty mountain tops" is to use the verb "stand" in a novel linguistic context. Days have no literal legs to stand on. John Searle, George Lakoff, and Mark Turner, among others, have argued that metaphors are more broadly a cognitive phenomenon, mapping distinct ontological categories across "conceptual domains" [@lakoff_metaphors_1980; @turner_death_1987; @lakoff_contemporary_1998, @searle_metaphor_1998]. In the modified view, even such basic semantic concepts as "state, quantity, action, cause, purpose, means, modality" are metaphorical in nature [@lakoff_metaphorical_1980; @lakoff_contemporary_1998, 212]. Beyond figurative lyrical language, Lakoff and others have argued that metaphors broadly structure everyday experience. Thus the analysis of common phrases like "things are looking up" and "I can't get that tune out of my mind" reveals underlying figuration like "good things are up" and "the mind is a container." The idea that "good things are up" generates a multitude of metaphors like "profits are going up" and "moving on up," for example [@lakoff_metaphorical_1980, 195-198]
 
-!["An exemplary interface for viewing a three dimensional book" [@card_methods_2006, 3].](images/book-metaphor.png)
+!["An exemplary interface for viewing a three dimensional book" [@card_methods_2006, 3].](/images/book-metaphor.png)
 
 In the cognitive view, the metaphor performs a number of "conventional mappings from one domain to another" [@lakoff_contemporary_1998, 239]. Lakoff mentions for example the common trope of "a state is a person," implicit in the ideas of "friendly" and "hostile" states [@lakoff_contemporary_1998, 243].  This metaphor implies that ideas about agency, emotion, and mental life usually attached to people can be extended to state actors. Similarly, to say that someone is "boiling mad," instantiates the common trope of "anger is a hot liquid in a container." In this case, common known properties attached to the domain of physics are mapped onto the domain of emotion. Lakoff further explains that such domain mappings tend to follow a few rules. They are usually partial and asymmetrical. "Mappings are not arbitrary," he writes, "but grounded in the body and in everyday experience and knowledge." Finally domain mappings obey what Lakoff calls the Invariance Principle, by which "the image schema structure of the source domain is projected onto the target domain in a way that is consistent with inherent target domain structure."[^ln1-metalakoff]
 
 [^ln1-metalakoff]: [@lakoff_contemporary_1998] See also @turner_conceptual_1995; @ruiz_de_mendoza_ibanez_nature_1998; @lakoff_invariance_2009.
 
-### Another Section
+### A Sub-Section of some kind
 
 The principles of metaphor-driven design contain an implicit model of human--computer interaction, which implies that humans prefer to manipulate digital information stored on computational media by the means of familiar mediating structures---paragraphs, pages, files, and folders---associated figuratively with the affordances of print media. We know, in other words, what paragraphs, pages, files, and folders can do on paper and we would like for digital images of paper to behave in a similar way. For example, one affordance of paper is that it can be folded. It therefore becomes possible to "earmark" a page by folding a corner. The fold enables subsequent recollection of text that has been previously read. By these means, a reader marks a notable place in the text in order to return to it later. The digital medium cannot be folded in the same way as it offers a set of physical affordances that differ from actual paper. Readers are not familiar with "what can be done" digitally, however; consequently, the affordances of digital media are presented through metaphor. Thus a virtual "earmark" on a "page" represents a numerical pointer to a specific address in the computer memory. A "page" stands for a range of related addresses that correspond roughly to the information visible on an analogous page in print. Similarly one "drops a folder into a trash bin" or "drags and drops a file" or "bookmarks a page" on a screen. Such metaphors rely on habituated insight with one medium extended into another. We do not literally "drag" or "drop" bits, but we use metaphors of paper and trashcan to help us manipulate bits and bytes as if they were household objects. The metaphor opens figurative possibilities, but it also obscures the actual physical contingencies of interacting with bits and bytes, logic gates and magnetic traces.
 
@@ -83,11 +111,23 @@ Consider the commonplace task of "turning pages" in the act of writing or readin
 
 The simulation is perhaps necessary, because the reading and writing of digital data can involve processes far outside of everyday experience. For example, in reading data from solid state (FLASH) memory a circuit imparts electrical charge through quantum tunneling onto a connected series of floating gate transistors [@pavan_flash_1997; @bez_introduction_2003].
 
-![Formal structures at the site of the inscription. "Perspective view of a portion of a charge translating device illustrating a preferred electrical contact arrangement. A quantum of charge carriers, representing an information bit [...] can be translated along the semiconductor [...] sweeping the minority carriers with it. The quantum can be detected by a simple capacitive couple, e.g., a floating gate FET" [@boyle_information_1974].](images/floating-gate.png)
+![Formal structures at the site of the inscription. "Perspective view of a portion of a charge translating device illustrating a preferred electrical contact arrangement. A quantum of charge carriers, representing an information bit [...] can be translated along the semiconductor [...] sweeping the minority carriers with it. The quantum can be detected by a simple capacitive couple, e.g., a floating gate FET" [@boyle_information_1974].](/images/floating-gate.png)
 
 Whatever the complexities of solid state storage architecture, the difference in arrangement of information between pages and floating gates---at the root of modern "sold state" storage---is apparent. The structure of one has only an arbitrary connection to the structure of the other. Consequently changes in the structure of one domain do not necessitate changes in the structure of another: to "erase a word" on a projected, virtual page thus may not have the corresponding effect on the level of the storage medium. The information may persist despite the intended erasure. As dwellers of simulated worlds, we hope that the analogy between paper and pixel achieves a level of verisimilitude.  Turning the page or erasing a word on the screen should do something similar on the disk. However, we also know that not to be the case. As in Baudrillard's map, the metaphor is broken in that it no longer reflects any terrain. The computational metaphor simulates the familiar but absent affordances of the print artifact. The simulation suggests a structuring of one kind, while enacting a structure of another.
 
+## A table with some stuff
+
+   Right     Left       Center     Default
+--------     ------- -----------   -------
+      12     12          12            12
+     123     123         123          123
+       1     1            1             1
+
+Table:  Demonstration of simple table syntax.
+
 In these novel conditions, the task of the literary scholar must include, among other things, a practice of microscopic reading that corresponds to the kind of micromolecular writing suggested by Baudrillard and Frederich Kittler [@kittler_there_1995]. The full extent of the simulated figure must be made available for interpretation. What happens in the metaphorical transference between the book as a work of art and the apparatus simulating the book?  Estrangement, the exegesis of the metaphor, reveals mechanisms of governance shaping mental experience. It apprehends the revealed mechanics of computational reading. Materialist poetics subsequently allow one to consent, or, conversely, to resist elements of imposed structure.
+
+
 
 
 [^ln4-nested]: The notion of "digital text" itself is a metaphor. Files do not really hold texts. The idea of "text" identifies a segment of stored memory coupled with control codes that govern layout and projection in specific material context. Together, these diverse signals and physical affordances create the illusion of a single text.
@@ -99,6 +139,8 @@ In these novel conditions, the task of the literary scholar must include, among 
 [^ln3-mindflex]: The American toy giant Mattel makes a game called "Mindflex." The Frequently Asked Questions page includes the following prompt: "Have you ever dreamed of moving an object with the power of your mind? Mindflex Duel™ makes that dream a reality! Utilizing advanced Mindflex Duel™ technology, the wireless headset reads your brainwave activity. Concentrate...and the ball rises on a cushion of air! Relax...and the ball descends. It's literally mind over matter!" (@mindflex_mindflex:_2015) 
 
 [^ln1-rmedium]: For example, see Paul Ricoeur writing on the change in media from speaking to writing: "The most obvious change from speaking to writing concerns the relation between message and its medium or channel. At first glance, it concerns only this relation, but upon closer examination, the first alteration irradiates in every direction, affecting in decisive manner all the factors and functions" [@ricur_interpretation_1976, 25].
+
+
 
 
 
