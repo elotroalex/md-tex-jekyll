@@ -8,8 +8,7 @@ body {
 .poetry ul, ul.poetry, .poetry p {
   list-style: none;
   list-style-type: none;
-  padding-left: 1rem;
-  text-indent: -1rem;
+  padding-left: 2rem;
 }
 
 
