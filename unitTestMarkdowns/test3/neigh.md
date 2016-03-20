@@ -88,7 +88,7 @@ and trade tariffs, surpass print books in their international
 portability, making them more accessible to Caribbean diasporic
 communities.
 
-![2 Cents Movement Poet](images/poet_performing2)
+![2 Cents Movement Poet]({{ site.baseurl }}/public/images/poet_performing2.jpg)
 
 This article examines one of the best examples of innovative digital
 poetry in the Caribbean: the youth-led artist collective [The 2 Cents
@@ -208,7 +208,7 @@ of print archives.
 
 ## Creating Digital Griots: The 2 Cents Movement
 
-![Audience Interaction](images/audience_interaction2)
+![Audience Interaction]({{ site.baseurl }}/public/images/audience_interaction2.jpg)
 
 Scrolling through [The 2 Cents Movement’s Facebook
 page](https://www.facebook.com/The2CentsMovement/) reveals a vibrant
@@ -259,8 +259,12 @@ the Intercol slam competition. Photo live-tweets of their tour
 performances often focused on the students actively participating in the
 audience rather than on the poet performing. In these shots, the camera
 points at the audience, often catching only the performer’s back or the
-corner of her shoulder.[^22] **(“audience\_interaction1” and
-“poet\_performing1”)** The online viewer gets to stare out at the
+corner of her shoulder.[^22] 
+
+![Audience interaction]({{ site.baseurl }}/public/images/audience_interaction1.jpg)
+![Poet performer]({{ site.baseurl }}/public/images/poet_performing1.jpg)
+
+The online viewer gets to stare out at the
 auditorium filled with students, which allows her to occupy the
 performer’s gaze but also view a student’s face as a mirror, inviting
 her to identify with both the performer and the audience. This
@@ -268,8 +272,11 @@ elaborates on the pedagogy offered during the tour, where the poets’
 performances provide students with a model for their own poetry
 aspirations. Visually, Twitter and Facebook followers become situated in
 the continuum of total expression--in the reciprocal exchange between
-performer and audience. **(“audience\_interaction3”)** High school
-students who attended a 2 Cents Movement performance at their own school
+performer and audience. 
+
+![Audience interaction]({{ site.baseurl }}/public/images/audience_interaction3.jpg)
+
+High school students who attended a 2 Cents Movement performance at their own school
 could then follow them on Twitter and Facebook and connect these images
 to their own participation in the live event. The photos (and the
 movement as a whole) downplay individual author celebrity in favor of
@@ -341,7 +348,7 @@ and the mediated voices in their poems, The 2 Cents Movement invites
 users to do more than merely like their status updates and continue
 scrolling.
 
-**(Embed Crystal Skeete’s Video here)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9OA8eLoPylU" frameborder="0" allowfullscreen></iframe>
 
 In addition to microblogging their performances, The 2 Cents Movement’s
 video poems, like Skeete’s “Maxi Man,” demonstrate how audiovisual
@@ -364,7 +371,7 @@ dramatic monologue form and the music video genre, Skeete and the 2
 Cents Movement team cultivate a sense of audience connection and
 encourage dialogue beyond the space of the poem.
 
-![Maxi man cast](images/maxi_man_cast)
+![Maxi man cast]({{ site.baseurl }}/public/images/maxi_man_cast.jpg)
 
 Skeete dresses in a government school uniform to play her character in
 the video. Her embodiment of the character creates a dialogic
