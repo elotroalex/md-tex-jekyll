@@ -96,7 +96,7 @@ def mycite(key, value, fmt, meta):
                 if 'c' in val and type(val['c']) is unicode and val['t'] == 'Str' and re.match(r'http:',val['c']):      
                     #val=[context("\hyphenatedurl{")]+[val]+[context("}")]
                     #val['c']="\hyphenatedurl{%s}" % (val['c'])
-                    urlKeys.append((key, key))
+                    urlKeys.append((key, key+2))
         inserted=0
         for start, end in urlKeys:
             value.insert(int(start)+inserted,context("\hyphenatedurl{"))
