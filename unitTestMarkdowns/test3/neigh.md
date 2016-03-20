@@ -88,7 +88,7 @@ and trade tariffs, surpass print books in their international
 portability, making them more accessible to Caribbean diasporic
 communities.
 
-![2 Cents Movement Poet]({{ site.baseurl }}/public/images/poet_performing2.jpg)
+![2 Cents Movement Poet](poet_performing2.jpg)
 
 This article examines one of the best examples of innovative digital
 poetry in the Caribbean: the youth-led artist collective [The 2 Cents
@@ -208,7 +208,7 @@ of print archives.
 
 ## Creating Digital Griots: The 2 Cents Movement
 
-![Audience Interaction]({{ site.baseurl }}/public/images/audience_interaction2.jpg)
+![Audience Interaction](audience_interaction2.jpg)
 
 Scrolling through [The 2 Cents Movement’s Facebook
 page](https://www.facebook.com/The2CentsMovement/) reveals a vibrant
@@ -261,8 +261,8 @@ audience rather than on the poet performing. In these shots, the camera
 points at the audience, often catching only the performer’s back or the
 corner of her shoulder.[^22] 
 
-![Audience interaction]({{ site.baseurl }}/public/images/audience_interaction1.jpg)
-![Poet performer]({{ site.baseurl }}/public/images/poet_performing1.jpg)
+![Audience interaction](audience_interaction1.jpg)
+![Poet performer](poet_performing1.jpg)
 
 The online viewer gets to stare out at the
 auditorium filled with students, which allows her to occupy the
@@ -274,7 +274,7 @@ aspirations. Visually, Twitter and Facebook followers become situated in
 the continuum of total expression--in the reciprocal exchange between
 performer and audience. 
 
-![Audience interaction]({{ site.baseurl }}/public/images/audience_interaction3.jpg)
+![Audience interaction](audience_interaction3.jpg)
 
 High school students who attended a 2 Cents Movement performance at their own school
 could then follow them on Twitter and Facebook and connect these images
@@ -371,7 +371,7 @@ dramatic monologue form and the music video genre, Skeete and the 2
 Cents Movement team cultivate a sense of audience connection and
 encourage dialogue beyond the space of the poem.
 
-![Maxi man cast]({{ site.baseurl }}/public/images/maxi_man_cast.jpg)
+![Maxi man cast](maxi_man_cast.jpg)
 
 Skeete dresses in a government school uniform to play her character in
 the video. Her embodiment of the character creates a dialogic
