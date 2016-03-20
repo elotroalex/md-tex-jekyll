@@ -2,7 +2,7 @@
 set -euo pipefail
 
 sudo apt-get update 
-sudo apt-get install wget rsync curl ghostscript graphicsmagick inkscape mupdf pstoedit imagemagick zlib1g-dev cabal-install  -y 
+sudo apt-get install wget rsync curl ghostscript graphicsmagick inkscape mupdf pstoedit imagemagick zlib1g-dev cabal-install ssed  -y 
 sudo cabal update
 sudo cabal install pandoc pandoc-citeproc
 sudo mkdir -p /opt/context

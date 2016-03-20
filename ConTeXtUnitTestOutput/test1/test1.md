@@ -26,6 +26,12 @@ Il est désormais difficile de nier[^5] le changement[^6] fondamental[^7] de par
 [^7]: just trying to
 [^8]: argh
 
+
+{% iframe https://www.youtube.com/embed/9OA8eLoPylU %}
+
+{% iframe https://www.vimeo.com/embed/9OA8eLoPylU %}
+
+
 # A list
 
 - normal list

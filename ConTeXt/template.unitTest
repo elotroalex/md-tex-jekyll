@@ -2,6 +2,10 @@
 
 \environment env_journal
 
+$if(font)$
+\setmainfont[$font$][expansion=quality,protrusion=quality]
+$endif$
+
 \startcomponent $title.crossref$
 
 
@@ -15,6 +19,12 @@ $author.name$
 $endfor$
 }
 \stoplines
+
+$if(abstract)$
+\startnarrower
+{\it $abstract$ }
+\stopnarrower
+$endif$
 
 $body$
 

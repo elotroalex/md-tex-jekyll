@@ -2,7 +2,7 @@
 \enableregime[utf]  
 \setupcolors[state=start]
 \setupreferencing[autofile=yes]
-%\setupinteraction[state=start, color=middleblue, contrastcolor=middleblue, style={\tf}]
+\setupinteraction[state=start, color=black, contrastcolor=black, style={\tf}]
 
 \definefontfeature
   [default]
@@ -33,20 +33,21 @@
 \define[2]\MyChapterCommand%
   {\vbox{%]
 \setupinterlinespace[line=21pt]%  
-\setupalign[flushleft, nothyphenated, verytolerant]%
 %\setmainfont[Latin Modern Sans Quotation,14pt]%
 \switchtobodyfont[14pt]
 \bf
+\setupalign[flushleft, verytolerant]{%
 \blank[40mm]#2%
-}}
+}}}
 
 
-\setuphead[chapter]      [header=empty, command=\MyChapterCommand]
 \setuphead[section]      [style=\tfc]
 \setuphead[subsection]   [style=\tfb]
 \setuphead[subsubsection][style=\bf]
 
-\setuphead[chapter, section, subsection, subsubsection][incrementnumber=yes,number=no,align={flushleft, nothyphenated}, alternative=inmargin]
+\setuphead[chapter, section, subsection, subsubsection][incrementnumber=yes,number=no,align={flushleft, verytolerant}, alternative=inmargin]
+\setuphead[chapter]      [header=empty, command=\MyChapterCommand]
+
 
 \definedescription
   [description]
@@ -81,7 +82,7 @@
     \indenting[yes]},
 ]
 
-\setupexternalfigures[directory={/home/ubuntu/ConTeXt/img/,/home/ubuntu/gdrive/TRAP/TRAP Final Report/06 Kaz Topo Geography/06_Figures/,/home/ubuntu/gdrive/TRAP/TRAP Final Report/08 Geoarchaeology/08_Figures/, /home/ubuntu/gdrive/TRAP/TRAP Final Report/09 Sobotkova KAZ Survey Summary/09_Figures/Figures/, /home/ubuntu/gdrive/TRAP/TRAP Final Report/20 PrivatBakardzhiev - Boyanovo/20_Figures/,/home/ubuntu/gdrive/TRAP/TRAP Final Report/18 Sobotkova YAM Survey Summary/18_Figures/Figures/,/home/ubuntu/gdrive/TRAP/TRAP Final Report/17 Palaeoecol/}]
+\setupexternalfigures[directory={images/},width=.9\textwidth]
 
 \setupcaption[table][location=top]
 \setupcaptions[style={\tfx}, width=.9\textwidth,align=middle]
@@ -105,7 +106,11 @@
 
 
 
+\setupfootnotes[style={\setupinterlinespace[9pt]}]
+\setuptolerance   [{verytolerant, verystrict}]
 
+
+\sethyphenatedurlafter{/}
 
 
 \defineseparatedlist[CSV]
@@ -187,6 +192,7 @@ sm\high{a}ll~\high{a}xe~\bullet~\getvariable{article}{date}~\bullet~DOI~\getvari
 
 
 \unprotect
+\def\hyphenatedurlseparator{↩}
 \def\citet{\dosingleempty\doCiteT}
 \def\doCiteT[#1]#2{%
   \iffirstargument
