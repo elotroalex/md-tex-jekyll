@@ -29,4 +29,4 @@ context --purgeall --batchmode $filename.tex --path=$2 > contextRunLog.log
 echo Showing
 #subl contextRunLog.log
 #subl pandoc.log
-evince $filename.pdf &
+#evince $filename.pdf &

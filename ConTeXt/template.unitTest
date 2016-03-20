@@ -10,6 +10,9 @@ $endif$
 
 
 \startchapter[title={$title.long$}, marking={$title.short$}, reference={$title.crossref$}]
+$if(font)$
+{\tfd font: $font$}
+$endif$
 
 
 \startlines
