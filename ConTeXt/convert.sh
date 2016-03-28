@@ -17,11 +17,16 @@ filename="${filename%.*}"
 
 # pandoc --smart --normalize -f markdown -t native --filter ./contextBibliography.py -o $filename.nat $1
 echo Pandoc $filename
-pandoc --template $root/ConTeXt/template.unitTest --smart --normalize -f markdown -t context --filter pandoc-citeproc --filter $root/ConTeXt/contextStyles.py -o $filename.tex $1 2> pandoc.log
+pandoc --template $root/ConTeXt/template.unitTest --smart --normalize -f markdown -t context --filter pandoc-citeproc --filter $root/ConTeXt/contextStyles.py --no-wrap -o $filename.tex $1 2> pandoc.log
+echo Postprocess $filename
+
+
+#ssed -r -i -f $root/ConTeXt/hyphenated.ssed $filename.tex
+ssed -r -i -f $root/ConTeXt/iframe.ssed $filename.tex
+
 echo ConTeXt $filename
-
 context --purgeall --batchmode $filename.tex --path=$2 > contextRunLog.log 
-
-subl contextRunLog.log
-subl pandoc.log
-evince $filename.pdf &
+echo Showing
+#subl contextRunLog.log
+#subl pandoc.log
+#evince $filename.pdf &

@@ -2,10 +2,17 @@
 
 \environment env_journal
 
+$if(font)$
+\setmainfont[$font$][expansion=quality,protrusion=quality]
+$endif$
+
 \startcomponent $title.crossref$
 
 
 \startchapter[title={$title.long$}, marking={$title.short$}, reference={$title.crossref$}]
+$if(font)$
+{\tfd font: $font$}
+$endif$
 
 
 \startlines
@@ -15,6 +22,12 @@ $author.name$
 $endfor$
 }
 \stoplines
+
+$if(abstract)$
+\startnarrower
+{\it $abstract$ }
+\stopnarrower
+$endif$
 
 $body$
 

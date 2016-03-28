@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 from pandocfilters import toJSONFilter, RawInline, Cite, Para, Header, Str, RawBlock, elt, BlockQuote, Div
-import os, sys, pprint
+import os, sys, pprint, re
 
 
 
@@ -12,6 +12,7 @@ as per: http://modules.contextgarden.net/dl/bibmod-doc/doc/context/bib/bibmod-do
 and http://tex.stackexchange.com/questions/213372/where-to-find-a-comprehensive-overview-of-the-features-of-the-context-cite-comma
 
 """
+
 
 def warning(*objs):
     pp = pprint.PrettyPrinter(indent=4, stream=sys.stderr)
@@ -48,7 +49,9 @@ def mycite(key, value, fmt, meta):
     if key == 'Para' and fmt == 'context':
         keysToInsert=[]
         redKeys=[]
+        urlKeys=[]
 
+        
 
         lastLineBreak=0
         if type(value) is list:
@@ -58,6 +61,7 @@ def mycite(key, value, fmt, meta):
                 if val == {   u'c': u'{.red}', u't': u'Str'}:
                     redKeys.append((lastLineBreak, key))
                     val['c']=''
+                
 
 
 
@@ -69,7 +73,7 @@ def mycite(key, value, fmt, meta):
             inserted=inserted+2
 
 
-
+        
         lastLineBreak=0
         if type(value) is list:
             for key,val in enumerate(value):
@@ -87,6 +91,17 @@ def mycite(key, value, fmt, meta):
             value[end]=context("\n\strut ")
             #inserted=inserted+1
 
+        if type(value) is list:
+            for key,val in enumerate(value):
+                if 'c' in val and type(val['c']) is unicode and val['t'] == 'Str' and re.match(r'http:',val['c']):      
+                    #val=[context("\hyphenatedurl{")]+[val]+[context("}")]
+                    #val['c']="\hyphenatedurl{%s}" % (val['c'])
+                    urlKeys.append((key, key+2))
+        inserted=0
+        for start, end in urlKeys:
+            value.insert(int(start)+inserted,context("\hyphenatedurl{"))
+            value.insert(end+inserted,context("}"))
+            inserted=inserted+2
 
 
        
