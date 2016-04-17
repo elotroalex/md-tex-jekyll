@@ -90,7 +90,7 @@ def mycite(key, value, fmt, meta):
             
             value[end]=context("\n\strut ")
             #inserted=inserted+1
-
+        
         if type(value) is list:
             for key,val in enumerate(value):
                 if 'c' in val and type(val['c']) is unicode and val['t'] == 'Str' and re.match(r'http:',val['c']):      

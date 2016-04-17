@@ -7,9 +7,9 @@ Poetry"
   "crossref": Explosions
 author: 
 - name: Janet Neigh
-  shortname: Neigh
-date: March 2016
-issue: 1
+  shortname: Janet Neigh
+date: "03.2016"
+issue: 50
 doi: 
 category: first-issue
 abstract: "The Internet offers new performance platforms for Caribbean poets who
@@ -778,13 +778,13 @@ this vital record of Caribbean poetry history a priority.
 
 [^2]: See “PennSound Transforms How Poetry Is Taught the World Over,”
     *Penn News*, 26 June 2014,
-    http://www.upenn.edu/pennnews/news/pennsound-transforms-how-poetry-taught-world-over.
+    [http://www.upenn.edu/pennnews/news/pennsound-transforms-how-poetry-taught-world-over](http://www.upenn.edu/pennnews/news/pennsound-transforms-how-poetry-taught-world-over).
 
 [^3]: For a discussion of race in digital canons, see Amy E. Earhart,
     “Can Information be Unfettered? Race and the New Digital Humanities
     Canon,” in Mathew K. Gold, ed., *Debates in the Digital Humanities*
     (Minneapolis: University of Minnesota Press, 2012), Open Access
-    Edition, <http://dhdebates.gc.cuny.edu>. Earhart urges that “we need
+    Edition, <[http://dhdebates.gc.cuny.edu](http://dhdebates.gc.cuny.edu)>. Earhart urges that “we need
     to examine the canon that we, as digital humanists, are
     constructing, a canon that skews toward traditional texts and
     excludes crucial work by women, people of color, and the GLBTQ
@@ -839,7 +839,7 @@ this vital record of Caribbean poetry history a priority.
     Boris Capitanu, and Megan Monroe, “Sounding for Meaning: Using
     Theories of Knowledge Representation to Analyze Aural Patterns in
     Texts,” *Digital Humanities Quarterly* 7, no. 1 (2013),
-    http://www.digitalhumanities.org/dhq/vol/7/1/000146/000146.html.
+    [http://www.digitalhumanities.org/dhq/vol/7/1/000146/000146.html](http://www.digitalhumanities.org/dhq/vol/7/1/000146/000146.html).
 
 [^18]: Although I do not have the space in this article to explore their
     work, studying the standards and practices developed by music
@@ -857,17 +857,18 @@ this vital record of Caribbean poetry history a priority.
 
 [^20]: Quoted in Bobie-lee Dixon, “Not afraid to put in their ‘2
     cents,’” *Trinidad and Tobago Guardian*, 16 July 2013,
-    http://www.guardian.co.tt/entertainment/2013-07-15/not-afraid-put-their-‘2-cents’.
+    [http://www.guardian.co.tt/entertainment/2013-07-15/not-afraid-put-their-‘2-cents’](http://www.guardian.co.tt/entertainment/2013-07-15/not-afraid-put-their-‘2-cents’).
 
 [^21]: “Logie Tops Schools Spoken Word ‘Intercol,’” *Trinidad and Tobago
     Guardian*, 2 April 2015,
-    http://www.guardian.co.tt/lifestyle/2015-04-01/logie-tops-schools-spoken-word-‘intercol’.
 
-[^22]: See their Twitter page: https://twitter.com/2CentsMovement. See
+    [http://www.guardian.co.tt/lifestyle/2015-04-01/logie-tops-schools-spoken-word-‘intercol’](http://www.guardian.co.tt/lifestyle/2015-04-01/logie-tops-schools-spoken-word-‘intercol’).
+
+[^22]: See their Twitter page: [https://twitter.com/2CentsMovement](https://twitter.com/2CentsMovement). See
     also their individual albums on their Facebook page, where some of
     their school tour photos are collected. For example, see the album
     “Five Rivers Sec – Speak Out Tour 2014 – Day 27”:
-    https://www.facebook.com/media/set/?set=a.610565055739844.1073741948.125245237605164&type=3.
+    [https://www.facebook.com/media/set/?set=a.610565055739844.1073741948.125245237605164&type=3](https://www.facebook.com/media/set/?set=a.610565055739844.1073741948.125245237605164&type=3).
 
 [^23]: Dhiraj Murthy, *Twitter: Social Communication in the Twitter Age*
     (Cambridge, UK: Polity Press, 2013), 39.
@@ -890,7 +891,7 @@ this vital record of Caribbean poetry history a priority.
 
 [^28]: Crystal Skeete, “Maxi Man Tracking School Gyal,” YouTube video,
     5.27, posted by The 2 Cents Movement, 25 June 2013,
-    https://www.youtube.com/watch?v=9OA8eLoPylU.
+    [https://www.youtube.com/watch?v=9OA8eLoPylU](https://www.youtube.com/watch?v=9OA8eLoPylU).
 
 [^29]: Skeete, “Maxi Man” (hereafter cited in text). Since I transcribed
     the quotations from a recording, any inaccuracies are mine.
@@ -916,10 +917,10 @@ this vital record of Caribbean poetry history a priority.
 
 [^35]: Tanya Barrientos, “Penn’s Rich Poetry Legacy,” *Penn Current*, 20
     May 2010,
-    http://www.upenn.edu/pennnews/current/2010-05-20/features/penn’s-rich-poetry-legacy.
+    [http://www.upenn.edu/pennnews/current/2010-05-20/features/penn’s-rich-poetry-legacy](http://www.upenn.edu/pennnews/current/2010-05-20/features/penn’s-rich-poetry-legacy).
 
 [^36]: Charles Bernstein, “PennSound Manifesto,” PennSound, 2003,
-    http://writing.upenn.edu/pennsound/manifesto.php.
+    [http://writing.upenn.edu/pennsound/manifesto.php](http://writing.upenn.edu/pennsound/manifesto.php).
 
 [^37]: Ibid.
 
@@ -932,7 +933,7 @@ this vital record of Caribbean poetry history a priority.
 
 [^41]: *Code for Best Practices in Fair Use For Poetry* (Center for
     Social Media and the Poetry Foundation, 2011),
-    <http://www.poetryfoundation.org/foundation/bestpractices>.
+    <[http://www.poetryfoundation.org/foundation/bestpractices](http://www.poetryfoundation.org/foundation/bestpractices)>.
 
 [^42]: Kate Eichhorn, “Past Performance, Present Dilemma: A Poetics of
     Archiving Sound,” *Mosaic* 42 (2009): 187.
@@ -945,7 +946,7 @@ this vital record of Caribbean poetry history a priority.
 
 [^46]: Linton Kwesi Johnson, “Di Great Insohreckshan,” YouTube video,
     2.00, posted by Oscar David De Barros, 25 January 2013,
-    https://www.youtube.com/watch?v=IUNQS7Pwwu4.
+    [https://www.youtube.com/watch?v=IUNQS7Pwwu4](https://www.youtube.com/watch?v=IUNQS7Pwwu4).
 
 [^47]: Brathwaite, *History of the Voice*, 46.
 
@@ -953,7 +954,7 @@ this vital record of Caribbean poetry history a priority.
 
 [^49]: Martin Spinelli, “Analog Echoes: A Poetics of Digital Audio
     Editing,” *Object 10: Cyberpoetics* (2002): 36, *UbuWeb Papers*, 16
-    May 2007, http://www.ubu.com/papers/object/06\_spinelli.pdf.
+    May 2007, [http://www.ubu.com/papers/object/06\_spinelli.pdf](http://www.ubu.com/papers/object/06\_spinelli.pdf).
     Spinelli criticizes poetry sound editing for being too influenced by
     traditional radio theory, questioning why most archived poetry
     recordings present sound as though it were a linear medium by using
@@ -962,7 +963,7 @@ this vital record of Caribbean poetry history a priority.
     interruption, to remove digression and to clarify” (36).
 
 [^50]: Linton Kwesi Johnson Author Page, The Poetry Archive, accessed 23
-    July 2015, http://www.poetryarchive.org/poet/linton-kwesi-johnson.
+    July 2015, [http://www.poetryarchive.org/poet/linton-kwesi-johnson](http://www.poetryarchive.org/poet/linton-kwesi-johnson).
 
 [^51]: Onuora quoted in Morris, *‘Is English We Speaking,’* 38.
 
@@ -977,12 +978,12 @@ this vital record of Caribbean poetry history a priority.
 [^55]: Annie Murray and Jared Wiercinski, “Looking at Archival Sound:
     Enhancing the Listening Experience in a Spoken Word Archive,” *First
     Monday* 17, no. 4 (2012),
-    http://firstmonday.org/ojs/index.php/fm/article/view/3808/3197.
+    [http://firstmonday.org/ojs/index.php/fm/article/view/3808/3197](http://firstmonday.org/ojs/index.php/fm/article/view/3808/3197).
 
 [^56]: Annie Murray and Jared Wiercinski, “A Design Methodology for
     Web-based Sound Archives,” *DHQ: Digital Humanities Quarterly* 8,
     no. 2 (2014),
-    http://digitalhumanities.org:8081/dhq/vol/8/2/000173/000173.html\#p6.
+    [http://digitalhumanities.org:8081/dhq/vol/8/2/000173/000173.html\#p6](http://digitalhumanities.org:8081/dhq/vol/8/2/000173/000173.html\#p6).
 
 [^57]: For a summary of their specific suggestions for visual design,
     see Murray and Wiercinski, “Looking at Archival Sound.”
