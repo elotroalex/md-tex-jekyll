@@ -53,6 +53,7 @@
 \setuphead[chapter, section, subsection, subsubsection][incrementnumber=yes,number=no,align={flushleft, verytolerant}, alternative=inmargin]
 \setuphead[chapter]      [header=empty, command=\MyChapterCommand]
 
+\enabletrackers[graphics.locating]
 
 \definedescription
   [description]
@@ -87,7 +88,7 @@
     \indenting[yes]},
 ]
 
-\setupexternalfigures[directory={images/},width=\textwidth]
+\setupexternalfigures[directory={images},width=\textwidth]
 
 \setupcaption[table][location=top]
 \setupcaptions[style={\tfx}, width=.9\textwidth,align=middle]

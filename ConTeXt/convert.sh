@@ -23,9 +23,10 @@ echo Postprocess $filename
 
 #ssed -r -i -f $root/ConTeXt/hyphenated.ssed $filename.tex
 #ssed -r -i -f $root/ConTeXt/iframe.ssed $filename.tex
+echo $2
 
 echo ConTeXt $filename
-context --purgeall --batchmode $filename.tex --path=$2 > contextRunLog.log 
+context --purgeall --batchmode $filename.tex > contextRunLog.log 
 echo Showing
 #subl contextRunLog.log
 #subl pandoc.log
