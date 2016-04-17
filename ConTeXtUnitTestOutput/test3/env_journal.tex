@@ -152,11 +152,12 @@
 \setupTABLE[c][each][align=flushleft,style={\tfx}]
 \setupTABLE[r][1][background=color,backgroundcolor=gray,style={\tf}]
 \setupTABLE[align=middle]
-\setuppagenumbering[alternative=doublesided, location={header, margin}, style={\setupbodyfont[9pt]}]
+\setuppagenumbering[alternative=singlesided, location={header, margin}, style={\setupbodyfont[9pt]}]
 
 \setupheadertexts[]
 \setupheader[text][state=normal, style={\setupbodyfont[9pt]}]
-\setupheadertexts[][\setups{text a}][\setups{text b}][]
+
+\setupheadertexts[\setups{text b}][\setups{text a}][\setups{text a}][\setups{text b}]
 
 \startsetups[text a]
   SX{\bf\getvariable{article}{issue}}~[~\getvariable{article}{date}~]
@@ -174,7 +175,7 @@
 
 \setlayer[firstfooter]{% ,x=38.1mm, y=209.55mm
 \switchtobodyfont[6pt]
-sm\high{a}ll~\high{a}xe~\bullet~\getvariable{article}{date}~\bullet~DOI~\getvariable{article}{DOI}~\copyright~Sm\high{a}ll~Axe, Inc.
+sm\high{a}ll~axe~\bullet~\getvariable{article}{date}~\bullet~DOI~\getvariable{article}{DOI}~\copyright~Sm\high{a}ll~Axe, Inc.
 \hfill
 }
 
