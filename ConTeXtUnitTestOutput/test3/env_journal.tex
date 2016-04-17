@@ -12,10 +12,15 @@
 %\definefontfamily [roboto][sans][Roboto]
 
 \usemodule[simplefonts]
-\setmainfont[Latin Modern Sans Quotation][expansion=quality,protrusion=quality]
+\setmainfont[xits][expansion=quality,protrusion=quality]
 \setupbodyfont[9pt]
 
 
+\newdimen\Margin
+\Margin=3cm
+
+\newdimen\MarginRaise
+\MarginRaise=56ex
 
 \usemodule[database]
 % Enable hyperlinks
@@ -23,7 +28,7 @@
 \setuppapersize [width=190.5mm, height=228.6 mm][width=190.5mm, height=228.6 mm]
 \setuplayout    [width=middle,  backspace=38.1 mm, cutspace=22.225 mm,
                  height=middle, topspace=19.05 mm, bottomspace=19.05 mm,
-                 topdistance=8.819mm]
+                 topdistance=8.819mm, marking=on]
 
 
 
@@ -82,7 +87,7 @@
     \indenting[yes]},
 ]
 
-\setupexternalfigures[directory={images/},width=.9\textwidth]
+\setupexternalfigures[directory={images/},width=\textwidth]
 
 \setupcaption[table][location=top]
 \setupcaptions[style={\tfx}, width=.9\textwidth,align=middle]
@@ -106,11 +111,13 @@
 
 
 
-\setupfootnotes[style={\setupinterlinespace[9pt]}]
-\setuptolerance   [{verytolerant, verystrict}]
+\setupfootnotes[style={\setupinterlinespace[9pt]\setupalign[verytolerant,stretch]}]
+\setuptolerance   [{verytolerant, stretch}]
 
 
 \sethyphenatedurlafter{/}
+\sethyphenatedurlafter{?}
+\sethyphenatedurlafter{-}
 
 
 \defineseparatedlist[CSV]
@@ -144,24 +151,21 @@
 \setupTABLE[c][each][align=flushleft,style={\tfx}]
 \setupTABLE[r][1][background=color,backgroundcolor=gray,style={\tf}]
 \setupTABLE[align=middle]
-\setuppagenumbering[alternative=doublesided]
+\setuppagenumbering[alternative=doublesided, location={header, margin}, style={\setupbodyfont[7.5pt]}]
 
 \setupheadertexts[]
-\setupheadertexts[\setups{text a}][][][\setups{text b}]
+\setupheader[margin][state=normal, style={\setupbodyfont[17.5pt]}]
+\setupheadertexts[][\setups{text a}][\setups{text b}][]
 
 \startsetups[text a]
-  \setupinterlinespace[line=1ex]
-  \hfill
-  \llap{\inframed[autowidth=force, height=11pt, width=9pt, align=middle]{SX}~\getvariable{article}{issue}~\color[gray]{\bullet}~\getvariable{article}{date}~\color[gray]{\bullet}~\getvariable{article}{shortauthor}~\color[gray]{\|}~\pagenumber}
+  SX{\bf\getvariable{article}{issue}}~[~\getvariable{article}{date}~]
 \stopsetups
 
 \startsetups[text b]
-  \rlap{\pagenumber~\color[gray]{\|}~\getmarking[chapter]}
-  
-  \hfill
-  
+  \[~\getvariable{article}{shortauthor}~\]~\getmarking[chapter]
 \stopsetups
 
+%\showframe
 
 
 \definelayer[firstfooter][repeat=no, state=start,x=38.1mm,y=272.6mm]%x=28.1mm,y=4.233mm,
@@ -192,7 +196,7 @@ sm\high{a}ll~\high{a}xe~\bullet~\getvariable{article}{date}~\bullet~DOI~\getvari
 
 
 \unprotect
-\def\hyphenatedurlseparator{↩}
+%\def\hyphenatedurlseparator{↩}
 \def\citet{\dosingleempty\doCiteT}
 \def\doCiteT[#1]#2{%
   \iffirstargument
