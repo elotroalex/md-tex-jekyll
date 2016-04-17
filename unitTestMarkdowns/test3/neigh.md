@@ -51,8 +51,6 @@ establishes in his groundbreaking lecture *History of the Voice*,
 Anglophone Caribbean poetry should be celebrated for its “sound
 explosions,” yet it has remained relatively quiet online.[^1]
 
-![compelled to pagewidth](http://tug.org/images/logobw.jpg)
-
 Internet audio archives for poetry have flourished in recent years.
 Websites such as [PennSound](http://writing.upenn.edu/pennsound/), [The
 Poetry Archive](http://www.poetryarchive.org), [the Poetry
