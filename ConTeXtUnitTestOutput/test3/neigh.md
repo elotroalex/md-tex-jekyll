@@ -857,6 +857,8 @@ this vital record of Caribbean poetry history a priority.
 
 [^20]: Quoted in Bobie-lee Dixon, “Not afraid to put in their ‘2
     cents,’” *Trinidad and Tobago Guardian*, 16 July 2013,
+
+    
     [http://www.guardian.co.tt/entertainment/2013-07-15/not-afraid-put-their-‘2-cents’](http://www.guardian.co.tt/entertainment/2013-07-15/not-afraid-put-their-‘2-cents’).
 
 [^21]: “Logie Tops Schools Spoken Word ‘Intercol,’” *Trinidad and Tobago
