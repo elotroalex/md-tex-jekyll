@@ -349,9 +349,6 @@ and the mediated voices in their poems, The 2 Cents Movement invites
 users to do more than merely like their status updates and continue
 scrolling.
 
-{% iframe https://www.youtube.com/embed/9OA8eLoPylU %}
-
-
 In addition to microblogging their performances, The 2 Cents Movement’s
 video poems, like Skeete’s “Maxi Man,” demonstrate how audiovisual
 recording technologies can be used to enhance the communal dynamic of
