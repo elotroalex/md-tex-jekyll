@@ -13,7 +13,7 @@
 
 \usemodule[simplefonts]
 \setmainfont[xits][expansion=quality,protrusion=quality]
-\setupbodyfont[9pt]
+\setupbodyfont[10pt]
 
 
 \newdimen\Margin
@@ -26,7 +26,7 @@
 % Enable hyperlinks
 
 \setuppapersize [width=190.5mm, height=228.6 mm][width=190.5mm, height=228.6 mm]
-\setuplayout    [width=middle,  backspace=38.1 mm, cutspace=22.225 mm,
+\setuplayout    [width=middle,  backspace=30.1625mm, cutspace=30.1625mm, %backspace=38.1 mm, cutspace=22.225 mm,
                  height=middle, topspace=19.05 mm, bottomspace=19.05 mm,
                  topdistance=8.819mm, marking=on]
 
@@ -151,10 +151,10 @@
 \setupTABLE[c][each][align=flushleft,style={\tfx}]
 \setupTABLE[r][1][background=color,backgroundcolor=gray,style={\tf}]
 \setupTABLE[align=middle]
-\setuppagenumbering[alternative=doublesided, location={header, margin}, style={\setupbodyfont[7.5pt]}]
+\setuppagenumbering[alternative=doublesided, location={header, margin}, style={\setupbodyfont[9pt]}]
 
 \setupheadertexts[]
-\setupheader[margin][state=normal, style={\setupbodyfont[17.5pt]}]
+\setupheader[text][state=normal, style={\setupbodyfont[9pt]}]
 \setupheadertexts[][\setups{text a}][\setups{text b}][]
 
 \startsetups[text a]
