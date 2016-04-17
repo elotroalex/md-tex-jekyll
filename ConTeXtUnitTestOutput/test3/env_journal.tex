@@ -160,7 +160,7 @@
 \setupheadertexts[\setups{text b}][\setups{text a}][\setups{text a}][\setups{text b}]
 
 \startsetups[text a]
-  SX{\bf\getvariable{article}{issue}}~[~\getvariable{article}{date}~]
+  SX:A{\bf\getvariable{article}{issue}}~[~\getvariable{article}{date}~]
 \stopsetups
 
 \startsetups[text b]
@@ -175,8 +175,7 @@
 
 \setlayer[firstfooter]{% ,x=38.1mm, y=209.55mm
 \switchtobodyfont[6pt]
-small~axe~\bullet~\getvariable{article}{date}~\bullet~DOI~\getvariable{article}{DOI}~\copyright~Sm\high{a}ll~Axe, Inc.
-\hfill
+Small~Axe:~Archipelagos~\bullet~\getvariable{article}{date}~\bullet~DOI~\getvariable{article}{DOI}~\copyright~Small~Axe, Inc.\hfill
 }
 
 \definehspace[1][5 mm]
