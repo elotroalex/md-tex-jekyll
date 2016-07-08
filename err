@@ -1304,6 +1304,762 @@ u'Str'
 u'10,500'
 u'Str'
 u'signatures.'
+u'Para'
+[   {   u'c': [u'tex', u'\\input '], u't': u'RawInline'},
+    {   u'c': u'knuth', u't': u'Str'}]
+u'RawInline'
+[u'tex', u'\\input ']
+u'Str'
+u'knuth'
+u'Header'
+[2, [u'wibble', [], []], [{   u'c': u'Wibble', u't': u'Str'}]]
+u'Table'
+[   [],
+    [   {   u'c': [], u't': u'AlignDefault'},
+        {   u'c': [], u't': u'AlignDefault'},
+        {   u'c': [], u't': u'AlignDefault'},
+        {   u'c': [], u't': u'AlignDefault'}],
+    [   0.29508196721311475,
+        0.18032786885245902,
+        0.22131147540983606,
+        0.30327868852459017],
+    [   [   {   u'c': [   {   u'c': u'Blog', u't': u'Str'},
+                          {   u'c': [], u't': u'Space'},
+                          {   u'c': u'Name', u't': u'Str'}],
+                u't': u'Plain'}],
+        [{   u'c': [{   u'c': u'Blogger', u't': u'Str'}], u't': u'Plain'}],
+        [{   u'c': [{   u'c': u'Country', u't': u'Str'}], u't': u'Plain'}],
+        [{   u'c': [{   u'c': u'Categorization', u't': u'Str'}],
+                u't': u'Plain'}]],
+    [   [   [   {   u'c': [   {   u'c': [   [u'', [], []],
+                                            [   {   u'c': u'1981:',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'A',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Record',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'of',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'What',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Happened',
+                                                    u't': u'Str'}],
+                                            [   u'http://amedjafifa.wordpress.com',
+                                                u'']],
+                                  u't': u'Link'}],
+                    u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'Some', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'of', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'It/', u't': u'Str'},
+                              {   u'c': [], u't': u'SoftBreak'},
+                              {   u'c': u'DJ', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Afifa', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Aza', u't': u'Str'}],
+                    u't': u'Para'}],
+            [{   u'c': [{   u'c': u'Jamaica', u't': u'Str'}], u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'Personal-is-political,',
+                                  u't': u'Str'},
+                              {   u'c': [], u't': u'SoftBreak'},
+                              {   u'c': u'culture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic', u't': u'Str'}],
+                    u't': u'Para'}]],
+        [   [   {   u'c': [   {   u'c': [   [u'', [], []],
+                                            [   {   u'c': u'Active',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Voice',
+                                                    u't': u'Str'}],
+                                            [   u'http://anniepaul.net',
+                                                u'']],
+                                  u't': u'Link'}],
+                    u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'Annie', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Paul', u't': u'Str'}],
+                    u't': u'Para'}],
+            [{   u'c': [{   u'c': u'Jamaica', u't': u'Str'}], u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'+Feminism,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'culture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'witty', u't': u'Str'}],
+                    u't': u'Para'}]],
+        [   [   {   u'c': [   {   u'c': [   [u'', [], []],
+                                            [   {   u'c': u'Diary',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'of',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'a',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Mothering',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Worker',
+                                                    u't': u'Str'}],
+                                            [   u'http://grrlscene.wordpress.com',
+                                                u'']],
+                                  u't': u'Link'}],
+                    u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'Gabrielle', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Hosein', u't': u'Str'}],
+                    u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'Trinidad', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'&', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Tobago', u't': u'Str'}],
+                    u't': u'Para'}],
+            [   {   u'c': [   {   u'c': u'Feminist-academic,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'media', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'crossover,', u't': u'Str'},
+                              {   u'c': [], u't': u'SoftBreak'},
+                              {   u'c': u'personal-is-political,',
+                                  u't': u'Str'},
+                              {   u'c': [], u't': u'SoftBreak'},
+                              {   u'c': u'culture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic', u't': u'Str'}],
+                    u't': u'Para'}]]]]
+u'Plain'
+[   {   u'c': u'Blog', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Name', u't': u'Str'}]
+u'Str'
+u'Blog'
+u'Str'
+u'Name'
+u'Plain'
+[{   u'c': u'Blogger', u't': u'Str'}]
+u'Str'
+u'Blogger'
+u'Plain'
+[{   u'c': u'Country', u't': u'Str'}]
+u'Str'
+u'Country'
+u'Plain'
+[{   u'c': u'Categorization', u't': u'Str'}]
+u'Str'
+u'Categorization'
+u'Para'
+[   {   u'c': [   [u'', [], []],
+                  [   {   u'c': u'1981:', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'A', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Record', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'of', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'What', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Happened', u't': u'Str'}],
+                  [u'http://amedjafifa.wordpress.com', u'']],
+        u't': u'Link'}]
+u'Link'
+[   [u'', [], []],
+    [   {   u'c': u'1981:', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'A', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Record', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'of', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'What', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Happened', u't': u'Str'}],
+    [u'http://amedjafifa.wordpress.com', u'']]
+u'Str'
+u'1981:'
+u'Str'
+u'A'
+u'Str'
+u'Record'
+u'Str'
+u'of'
+u'Str'
+u'What'
+u'Str'
+u'Happened'
+u'Para'
+[   {   u'c': u'Some', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'of', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'It/', u't': u'Str'},
+    {   u'c': [], u't': u'SoftBreak'},
+    {   u'c': u'DJ', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Afifa', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Aza', u't': u'Str'}]
+u'Str'
+u'Some'
+u'Str'
+u'of'
+u'Str'
+u'It/'
+u'Str'
+u'DJ'
+u'Str'
+u'Afifa'
+u'Str'
+u'Aza'
+u'Para'
+[{   u'c': u'Jamaica', u't': u'Str'}]
+u'Str'
+u'Jamaica'
+u'Para'
+[   {   u'c': u'Personal-is-political,', u't': u'Str'},
+    {   u'c': [], u't': u'SoftBreak'},
+    {   u'c': u'culture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic', u't': u'Str'}]
+u'Str'
+u'Personal-is-political,'
+u'Str'
+u'culture'
+u'Str'
+u'critic'
+u'Para'
+[   {   u'c': [   [u'', [], []],
+                  [   {   u'c': u'Active', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Voice', u't': u'Str'}],
+                  [u'http://anniepaul.net', u'']],
+        u't': u'Link'}]
+u'Link'
+[   [u'', [], []],
+    [   {   u'c': u'Active', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Voice', u't': u'Str'}],
+    [u'http://anniepaul.net', u'']]
+u'Str'
+u'Active'
+u'Str'
+u'Voice'
+u'Para'
+[   {   u'c': u'Annie', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Paul', u't': u'Str'}]
+u'Str'
+u'Annie'
+u'Str'
+u'Paul'
+u'Para'
+[{   u'c': u'Jamaica', u't': u'Str'}]
+u'Str'
+u'Jamaica'
+u'Para'
+[   {   u'c': u'+Feminism,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'culture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'witty', u't': u'Str'}]
+u'Str'
+u'+Feminism,'
+u'Str'
+u'culture'
+u'Str'
+u'critic,'
+u'Str'
+u'witty'
+u'Para'
+[   {   u'c': [   [u'', [], []],
+                  [   {   u'c': u'Diary', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'of', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'a', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Mothering', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Worker', u't': u'Str'}],
+                  [u'http://grrlscene.wordpress.com', u'']],
+        u't': u'Link'}]
+u'Link'
+[   [u'', [], []],
+    [   {   u'c': u'Diary', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'of', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'a', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Mothering', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Worker', u't': u'Str'}],
+    [u'http://grrlscene.wordpress.com', u'']]
+u'Str'
+u'Diary'
+u'Str'
+u'of'
+u'Str'
+u'a'
+u'Str'
+u'Mothering'
+u'Str'
+u'Worker'
+u'Para'
+[   {   u'c': u'Gabrielle', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Hosein', u't': u'Str'}]
+u'Str'
+u'Gabrielle'
+u'Str'
+u'Hosein'
+u'Para'
+[   {   u'c': u'Trinidad', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'&', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Tobago', u't': u'Str'}]
+u'Str'
+u'Trinidad'
+u'Str'
+u'&'
+u'Str'
+u'Tobago'
+u'Para'
+[   {   u'c': u'Feminist-academic,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'media', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'crossover,', u't': u'Str'},
+    {   u'c': [], u't': u'SoftBreak'},
+    {   u'c': u'personal-is-political,', u't': u'Str'},
+    {   u'c': [], u't': u'SoftBreak'},
+    {   u'c': u'culture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic', u't': u'Str'}]
+u'Str'
+u'Feminist-academic,'
+u'Str'
+u'media'
+u'Str'
+u'crossover,'
+u'Str'
+u'personal-is-political,'
+u'Str'
+u'culture'
+u'Str'
+u'critic'
+u'Table'
+[   [   {   u'c': u'Caribbean', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Feminist', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Blogs', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'and', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Bloggers', u't': u'Str'}],
+    [   {   u'c': [], u't': u'AlignLeft'},
+        {   u'c': [], u't': u'AlignLeft'},
+        {   u'c': [], u't': u'AlignLeft'},
+        {   u'c': [], u't': u'AlignLeft'}],
+    [0.0, 0.0, 0.0, 0.0],
+    [   [   {   u'c': [   {   u'c': u'Blog', u't': u'Str'},
+                          {   u'c': [], u't': u'Space'},
+                          {   u'c': u'Name', u't': u'Str'}],
+                u't': u'Plain'}],
+        [{   u'c': [{   u'c': u'Blogger', u't': u'Str'}], u't': u'Plain'}],
+        [{   u'c': [{   u'c': u'Country', u't': u'Str'}], u't': u'Plain'}],
+        [{   u'c': [{   u'c': u'Categoriszation', u't': u'Str'}],
+                u't': u'Plain'}]],
+    [   [   [   {   u'c': [   {   u'c': [   [u'', [], []],
+                                            [   {   u'c': u'1981:',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'A',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Record',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'of',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'What',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Happened',
+                                                    u't': u'Str'}],
+                                            [   u'http://amedjafifa.wordpress.com',
+                                                u'']],
+                                  u't': u'Link'}],
+                    u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'Some', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'of', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'It/DJ', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Afifa', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Aza', u't': u'Str'}],
+                    u't': u'Plain'}],
+            [{   u'c': [{   u'c': u'Jamaica', u't': u'Str'}], u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'Personal-is-political,',
+                                  u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'culture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic', u't': u'Str'}],
+                    u't': u'Plain'}]],
+        [   [   {   u'c': [   {   u'c': [   [u'', [], []],
+                                            [   {   u'c': u'Active',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Voice',
+                                                    u't': u'Str'}],
+                                            [   u'http://anniepaul.net',
+                                                u'']],
+                                  u't': u'Link'}],
+                    u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'Annie', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Paul', u't': u'Str'}],
+                    u't': u'Plain'}],
+            [{   u'c': [{   u'c': u'Jamaica', u't': u'Str'}], u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'+Feminism,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'culture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'witty', u't': u'Str'}],
+                    u't': u'Plain'}]],
+        [   [   {   u'c': [   {   u'c': [   [u'', [], []],
+                                            [   {   u'c': u'Diary',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'of',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'a',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Mothering',
+                                                    u't': u'Str'},
+                                                {   u'c': [],
+                                                    u't': u'Space'},
+                                                {   u'c': u'Worker',
+                                                    u't': u'Str'}],
+                                            [   u'http://grrlscene.wordpress.com',
+                                                u'']],
+                                  u't': u'Link'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'G', u't': u'Str'}],
+                    u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'abrielle', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Hosein', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'T', u't': u'Str'}],
+                    u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'rinidad', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'&', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'Tobago', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'F', u't': u'Str'}],
+                    u't': u'Plain'}],
+            [   {   u'c': [   {   u'c': u'eminist-academic,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'media', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'crossover,', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'personal-is-political,',
+                                  u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'lture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic', u't': u'Str'}],
+                    u't': u'Plain'}]]]]
+u'Str'
+u'Caribbean'
+u'Str'
+u'Feminist'
+u'Str'
+u'Blogs'
+u'Str'
+u'and'
+u'Str'
+u'Bloggers'
+u'Plain'
+[   {   u'c': u'Blog', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Name', u't': u'Str'}]
+u'Str'
+u'Blog'
+u'Str'
+u'Name'
+u'Plain'
+[{   u'c': u'Blogger', u't': u'Str'}]
+u'Str'
+u'Blogger'
+u'Plain'
+[{   u'c': u'Country', u't': u'Str'}]
+u'Str'
+u'Country'
+u'Plain'
+[{   u'c': u'Categoriszation', u't': u'Str'}]
+u'Str'
+u'Categoriszation'
+u'Plain'
+[   {   u'c': [   [u'', [], []],
+                  [   {   u'c': u'1981:', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'A', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Record', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'of', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'What', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Happened', u't': u'Str'}],
+                  [u'http://amedjafifa.wordpress.com', u'']],
+        u't': u'Link'}]
+u'Link'
+[   [u'', [], []],
+    [   {   u'c': u'1981:', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'A', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Record', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'of', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'What', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Happened', u't': u'Str'}],
+    [u'http://amedjafifa.wordpress.com', u'']]
+u'Str'
+u'1981:'
+u'Str'
+u'A'
+u'Str'
+u'Record'
+u'Str'
+u'of'
+u'Str'
+u'What'
+u'Str'
+u'Happened'
+u'Plain'
+[   {   u'c': u'Some', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'of', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'It/DJ', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Afifa', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Aza', u't': u'Str'}]
+u'Str'
+u'Some'
+u'Str'
+u'of'
+u'Str'
+u'It/DJ'
+u'Str'
+u'Afifa'
+u'Str'
+u'Aza'
+u'Plain'
+[{   u'c': u'Jamaica', u't': u'Str'}]
+u'Str'
+u'Jamaica'
+u'Plain'
+[   {   u'c': u'Personal-is-political,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'culture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic', u't': u'Str'}]
+u'Str'
+u'Personal-is-political,'
+u'Str'
+u'culture'
+u'Str'
+u'critic'
+u'Plain'
+[   {   u'c': [   [u'', [], []],
+                  [   {   u'c': u'Active', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Voice', u't': u'Str'}],
+                  [u'http://anniepaul.net', u'']],
+        u't': u'Link'}]
+u'Link'
+[   [u'', [], []],
+    [   {   u'c': u'Active', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Voice', u't': u'Str'}],
+    [u'http://anniepaul.net', u'']]
+u'Str'
+u'Active'
+u'Str'
+u'Voice'
+u'Plain'
+[   {   u'c': u'Annie', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Paul', u't': u'Str'}]
+u'Str'
+u'Annie'
+u'Str'
+u'Paul'
+u'Plain'
+[{   u'c': u'Jamaica', u't': u'Str'}]
+u'Str'
+u'Jamaica'
+u'Plain'
+[   {   u'c': u'+Feminism,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'culture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'witty', u't': u'Str'}]
+u'Str'
+u'+Feminism,'
+u'Str'
+u'culture'
+u'Str'
+u'critic,'
+u'Str'
+u'witty'
+u'Plain'
+[   {   u'c': [   [u'', [], []],
+                  [   {   u'c': u'Diary', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'of', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'a', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Mothering', u't': u'Str'},
+                      {   u'c': [], u't': u'Space'},
+                      {   u'c': u'Worker', u't': u'Str'}],
+                  [u'http://grrlscene.wordpress.com', u'']],
+        u't': u'Link'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'G', u't': u'Str'}]
+u'Link'
+[   [u'', [], []],
+    [   {   u'c': u'Diary', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'of', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'a', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Mothering', u't': u'Str'},
+        {   u'c': [], u't': u'Space'},
+        {   u'c': u'Worker', u't': u'Str'}],
+    [u'http://grrlscene.wordpress.com', u'']]
+u'Str'
+u'Diary'
+u'Str'
+u'of'
+u'Str'
+u'a'
+u'Str'
+u'Mothering'
+u'Str'
+u'Worker'
+u'Str'
+u'G'
+u'Plain'
+[   {   u'c': u'abrielle', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Hosein', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'T', u't': u'Str'}]
+u'Str'
+u'abrielle'
+u'Str'
+u'Hosein'
+u'Str'
+u'T'
+u'Plain'
+[   {   u'c': u'rinidad', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'&', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'Tobago', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'F', u't': u'Str'}]
+u'Str'
+u'rinidad'
+u'Str'
+u'&'
+u'Str'
+u'Tobago'
+u'Str'
+u'F'
+u'Plain'
+[   {   u'c': u'eminist-academic,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'media', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'crossover,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'personal-is-political,', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'lture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic', u't': u'Str'}]
+u'Str'
+u'eminist-academic,'
+u'Str'
+u'media'
+u'Str'
+u'crossover,'
+u'Str'
+u'personal-is-political,'
+u'Str'
+u'lture'
+u'Str'
+u'critic'
 u'Table'
 [   [   {   u'c': u'Caribbean', u't': u'Str'},
         {   u'c': [], u't': u'Space'},
@@ -1623,9 +2379,10 @@ u'Table'
                               {   u'c': u'personal-is-political,',
                                   u't': u'Str'},
                               {   u'c': [], u't': u'Space'},
-                              {   u'c': u'lture', u't': u'Str'}],
-                    u't': u'Plain'}],
-            [{   u'c': [{   u'c': u'critic', u't': u'Str'}], u't': u'Plain'}]],
+                              {   u'c': u'lture', u't': u'Str'},
+                              {   u'c': [], u't': u'Space'},
+                              {   u'c': u'critic', u't': u'Str'}],
+                    u't': u'Plain'}]],
         [   [   {   u'c': [   {   u'c': u'Feminist', u't': u'Str'},
                               {   u'c': [], u't': u'Space'},
                               {   u'c': u'Aliens', u't': u'Str'}],
@@ -2840,7 +3597,9 @@ u'Plain'
     {   u'c': [], u't': u'Space'},
     {   u'c': u'personal-is-political,', u't': u'Str'},
     {   u'c': [], u't': u'Space'},
-    {   u'c': u'lture', u't': u'Str'}]
+    {   u'c': u'lture', u't': u'Str'},
+    {   u'c': [], u't': u'Space'},
+    {   u'c': u'critic', u't': u'Str'}]
 u'Str'
 u'Feminist-academic,'
 u'Str'
@@ -2851,8 +3610,6 @@ u'Str'
 u'personal-is-political,'
 u'Str'
 u'lture'
-u'Plain'
-[{   u'c': u'critic', u't': u'Str'}]
 u'Str'
 u'critic'
 u'Plain'

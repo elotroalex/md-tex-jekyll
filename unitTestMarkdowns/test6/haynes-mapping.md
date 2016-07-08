@@ -34,8 +34,38 @@ ground for mobilizing Caribbean feminist constituencies, as evidenced by
 their street protest and online petition with more than 10,500
 signatures.
 
+\input knuth
 
-| Blog Name | Blogger | Country | Categorization |
+## Wibble
+
++-----------------------------------+---------------------+--------------------------+------------------------------------+
+| Blog Name                         | Blogger             | Country                  | Categorization                     |
++===================================+=====================+==========================+====================================+
+|[1981: A Record of What Happened]( | Some of It/         | Jamaica                  | Personal-is-political,             |
+| http://amedjafifa.wordpress.com)  | DJ Afifa Aza        |                          | culture critic                     |
++-----------------------------------+---------------------+--------------------------+------------------------------------+
+| [Active Voice](                   | Annie Paul          | Jamaica                  | +Feminism, culture critic, witty   |
+| http://anniepaul.net)             |                     |                          |                                    |
++-----------------------------------+---------------------+--------------------------+------------------------------------+
+| [Diary of a Mothering Worker](    | Gabrielle Hosein    | Trinidad & Tobago        | Feminist-academic, media crossover,|
+| http://grrlscene.wordpress.com)   |                     |                          | personal-is-political,             |
+|                                   |                     |                          | culture critic                     |
++-----------------------------------+---------------------+--------------------------+------------------------------------+
+
+
+
+
+Blog Name                                                          Blogger                 Country           Categoriszation
+------------------------------------------------------------------ ----------------------- ----------------- ----------------------------
+[1981: A Record of What Happened](http://amedjafifa.wordpress.com) Some of It/DJ Afifa Aza Jamaica           Personal-is-political, culture critic
+[Active Voice](http://anniepaul.net)                               Annie Paul              Jamaica           +Feminism, culture critic, witty
+[Diary of a Mothering Worker](http://grrlscene.wordpress.com)     Gabrielle Hosein        Trinidad & Tobago Feminist-academic, media crossover, personal-is-political, lture critic
+
+Table: Caribbean Feminist Blogs and Bloggers
+
+
+
+| Blog Name                   | Blogger             | Country                  | Categorization |
 |---------------------------- | ------------------- | ------------------------ | -----------------------------------|
 |[1981: A Record of What Happened](http://amedjafifa.wordpress.com)| Some of It/DJ Afifa Aza | Jamaica | Personal-is-political, culture critic|
 |[Active Voice](http://anniepaul.net) | Annie Paul | Jamaica | +Feminism, culture critic, witty |
@@ -75,6 +105,8 @@ signatures.
 |[Writing "D"](http://debraprovidence.wordpress.com) | Debra Providence | St. Vincent and the Grenadines| +Feminism, poetry blog|
 
 Table: Caribbean Feminist Blogs and Bloggers
+
+
 
 
 ## Feminist Positionality
