@@ -46,7 +46,7 @@ signatures.
 |[BattyMamzelle](http://battymamzelle.blogspot.com) | Cate Young/BattyMamzelle | Trinidad & Tobago/US | Culture critic, personal-is-political|
 |[The Contessa Wears No Shoes](http://thecontessawearsnoshoes.blogspot.com) | | Trinidad & Tobago | Personal-is-political|
 |[Creative Commess](http://soyluv.wordpress.com) | Soyini Ayanna | Trinidad & Tobago/US | Culture critic, personal-is-political|
-|[Diary of a Mothering Worker](http://grrlscene.wordpress.com)| Gabrielle Hosein | Trinidad & Tobago| Feminist-academic, media crossover, personal-is-political, lture |critic
+|[Diary of a Mothering Worker](http://grrlscene.wordpress.com)| Gabrielle Hosein | Trinidad & Tobago| Feminist-academic, media crossover, personal-is-political, lture critic |
 |Feminist Aliens | | Barbados/South Africa/US | Culture critic, feminist-academic, curator, personal-is-political|
 |[Feminist Conversations on Caribbean Life](http://redforgender.wordpress.com) | | Barbados/Caribbean | Feminist-academic, culture critic|
 |[Freedom by Any Means](http://freedombyanymeans.wordpress.com) | Sherlina Nageer | Guyana | Media crossover, culture critic, personal-is-political|
