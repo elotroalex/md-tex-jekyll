@@ -23,7 +23,9 @@ def context(s):
 
 
 def mycite(key, value, fmt, meta):      
-
+    if value:
+        warning(key)
+        warning(value)
     if key == 'Div' and fmt == 'context':
 
         warning(value[0])

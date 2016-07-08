@@ -42,7 +42,7 @@ for dir in $(find ConTeXtUnitTestOutput/ -mindepth 1 -maxdepth 1 -type d $search
 	
 	for file in $(find . -name "*.md"); do		
 		
-		$root/ConTeXt/convert.sh $file $root $output
+		$root/ConTeXt/convert.sh $file $dir $output
 	done	
 	
 done	

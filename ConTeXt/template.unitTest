@@ -1,4 +1,4 @@
-\setvariables[article][shortauthor={$for(author)$$author.shortname$$sep$, $endfor$}, date={$date$}, issue={$issue$}, DOI={$doi$}]
+\setvariables[article][shortauthor={$for(author)$$author.shortname$$sep$, $endfor$}, date={$date$}, issue={$issue$}, DOI={$if(doi)$$doi$$else$Upcoming$endif$}]
 
 \setupinteraction[title={$title.long$},author={$for(author)$$author.name$$sep$, $endfor$}, date={$date$}, subtitle={$title.short$}]
 \environment env_journal
@@ -7,10 +7,10 @@ $if(font)$
 \setmainfont[$font$][expansion=quality,protrusion=quality]
 $endif$
 
-\startcomponent $title.crossref$
+\starttext
 
 
-\startchapter[title={$title.long$}, marking={$title.short$}, reference={$title.crossref$}]
+\startchapter[title={$title.long$}, marking={$title.short$}]
 $if(font)$
 {\tfd font: $font$}
 $endif$
@@ -25,9 +25,12 @@ $endfor$
 \stoplines
 
 $if(abstract)$
-\startnarrower
-{\it $abstract$ }
-\stopnarrower
+
+{\startnarrower\it $abstract$ \stopnarrower}
+
+\blank[2*line]
+\blackrule[width=\textwidth,height=.01pt]
+\blank[2*line]
 $endif$
 
 $body$
@@ -36,5 +39,14 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+$if(author)$
+\page
+$for(author)$
+\subsection{$author.name$}
+
+$author.bio$
+
+$endfor$
+$endif$
 \stopchapter
-\stopcomponent
+\stoptext

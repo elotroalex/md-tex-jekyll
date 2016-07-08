@@ -8,26 +8,26 @@ fi
 echo "Starting $1"
 fullfile=$1
 
-root=$(git rev-parse --show-toplevel)
+root=$2
 
 
 filename=$(basename "$fullfile")
 extension="${filename##*.}"
 filename="${filename%.*}"
 
-# pandoc --smart --normalize -f markdown -t native --filter ./contextBibliography.py -o $filename.nat $1
 echo Pandoc $filename
-pandoc --template $root/ConTeXt/template.unitTest --smart --normalize -f markdown -t context --filter pandoc-citeproc --filter $root/ConTeXt/contextStyles.py --no-wrap -o $filename.tex $1 2> pandoc.log
+pandoc --template /$root/ConTeXt/template.unitTest --smart --normalize -f markdown -t context --filter /$root/ConTeXt/contextStyles.py --wrap=none -o $filename.tex $1
 echo Postprocess $filename
 
 
-#ssed -r -i -f $root/ConTeXt/hyphenated.ssed $filename.tex
-#ssed -r -i -f $root/ConTeXt/iframe.ssed $filename.tex
-echo $2
+ssed -r -i -f $root/ConTeXt/hyphenated.ssed $filename.tex
+ssed -r -i -f $root/ConTeXt/thinrule.ssed $filename.tex
+ssed -r -i -f $root/ConTeXt/iframe.ssed $filename.tex
+ssed -r -i -f $root/ConTeXt/tables.ssed $filename.tex
 
 echo ConTeXt $filename
-context --purgeall --batchmode $filename.tex > contextRunLog.log 
-echo Showing
+context --batchmode $filename.tex > $filename.log 
+#echo Showing
 #subl contextRunLog.log
 #subl pandoc.log
 #evince $filename.pdf &
